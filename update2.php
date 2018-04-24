@@ -34,7 +34,7 @@
 				color: #fff;
 			}
 			input, select, textarea {
-				font-size: 1.1em;
+				font-size: 1.3em;
 				color:#000;
 			}
 			.important {
@@ -52,21 +52,51 @@
 				font-size: 1.5em;
 				color:#000;
 			}
+			.btn-addBeer {
+				width:150px;
+				height: 40px;
+			}
 			.currentBeerList:hover {
 				background-color: #330099;
 			}
 			.btn-info {
 				width:250px;
 			}
+			.modal-body {
+				display: flex;
+				justify-content: space-between;
+			}
+			.modal-body > .add-section {
+				margin: 5px;
+				font-size: 1.3em;
+			}
 			.modalH {
 				color:#000;
 				font-weight:bold;
 			}
-			.modal-dialog {
-				width: 70%;
-			}
 			.modal-content {
 				color:#000;
+			}
+			.modal-dialog {
+				width: 666px;
+			}
+			.modal-body {
+				padding: 0 15px;
+			}
+			.flex-it {
+				display: flex;
+				justify-content: center space-around;
+			}
+			.flex-it img {
+				height: 80px;
+			}
+			.flex-section {
+				margin: 10px;
+				font-size: 1.5em;
+			}
+			.add-header {
+				font-size: 1.3em;
+				font-weight: bold;
 			}
 		</style>
 	</head>
@@ -98,7 +128,6 @@
 			}
 
 			// Check and process the form
-			// DB connection
 			require 'beersDB.php';
 			$image = null;
 			$name = null;
@@ -106,10 +135,10 @@
 			$description = null;
 			if ($passValid) {
 				if (isset($_POST["newBeerImage"]) && isset($_POST["newBeerName"]) && isset($_POST["newBeerAbv"]) && isset($_POST["newBeerDescription"])) {
-					$image = $_POST["newBeerImage"];
-					$name = $_POST["newBeerName"];
-					$abv = $_POST["newBeerAbv"];
-					$description = $_POST["newBeerDescription"];
+					$image = htmlentities($_POST["newBeerImage"]);
+					$name = htmlentities($_POST["newBeerName"]);
+					$abv = htmlentities($_POST["newBeerAbv"]);
+					$description = htmlentities($_POST["newBeerDescription"]);
 				}
 				//##############
 				// DELETE a beer
@@ -118,14 +147,12 @@
 					// Get beer ID
 					$beerDeleted = explode("-",$delete,2);
 					$beerDeleted = $beerDeleted[1];
-					echo $beerDeleted;
 					//  Delete Beer
-					$sql->prepare("DELETE FROM beers WHERE ID=\"$beerDeleted\"");
-					echo "<h1>$beerDeleted Beer DELETED</h1>";
-					if ($conn->query($sql) === TRUE) {
-						echo "Deleted beer $beerDeleted";
+					$deleteSql = "DELETE FROM beers WHERE ID=$beerDeleted";
+					if ($conn->query($deleteSql) === TRUE) {
+						echo "<p>Deleted beer ID: $beerDeleted</p>";
 					} else {
-						echo "Error: " . $sql . "<br>" . $conn->error;
+						echo "Error: " . $deleteSql . "<br>" . $conn->error;
 					}
 				}
 				//##############
@@ -166,7 +193,7 @@
 							echo "<div class=\"row\">";
 							echo"<div class=\"col-md-2 beerList\">";
 							echo "<img height=\"70\" src=\"img/beers$dbImage.png\" alt=\"glass\"/>";
-							echo "<br/><input class=\"btn-danger\" type=\"submit\" name=\"delete\" value=\"DELETE beer ID-$dbID\">";
+							echo "<input class=\"btn-danger delete-beer\" type=\"submit\" name=\"delete\" value=\"DELETE beer-$dbID\">";
 							echo "</div>";
 							echo "<div class=\"col-md-10\">";
 							echo "<h3>$dbName</h3>";
@@ -174,21 +201,6 @@
 							echo "<p class=\"beerDescription\">$dbDesc</p>";
 							echo "</div>";
 							echo "</div>";
-							
-							####### Form fields
-							/*$beerTypesArr = array("Stout","Lager","Red","Blonde","IPA","Kolsch");
-							echo "<select name=\"image\">";
-							foreach ($beerTypesArr as $beerType) {
-								$selected = "";
-								if ($beerType == $dbImage) {
-									$selected = " selected";
-								}
-								echo "<option value=\"$beerType\"$selected>$beerType</option>";
-							}
-							echo '</select></td>';
-							echo "<td valign=\"top\"><input type=\"text\" name=\"name\" value=\"$dbName\"></td>";
-							echo "<td valign=\"top\"><input type=\"text\" name=\"abv\" value=\"$dbAbv\"></td>";
-							echo "<td><textarea name=\"description\" rows=\"3\" cols=\"50\">$dbDesc</textarea></td>"; */
 							}
 						}
 						?>
@@ -212,15 +224,9 @@
 				<button type="button" class="close" data-dismiss="modal">&times;</button><h3 class="modalH">Add a NEW beer</h3>
 			</div>
 			<div class="modal-body">
-				<table cellspacing="2">
-					<tr>
-						<th>Image</th>
-						<th>Name</th>
-						<th>ABV</th>
-						<th>Description</th>
-					</tr>
-				<tr>
-					<td valign="top"><select name="newBeerImage">
+				<div class="add-section">
+					<p class="add-header">Image</p>
+					<select name="newBeerImage">
 						<option value="">Choose Image</option>
 						<option value="Pint">Pint</option>
 						<option value="Stange">Stange</option>
@@ -228,16 +234,45 @@
 						<option value="Snifter">Snifter</option>
 						<option value="Weizen">Weizen</option>
 						<option value="Mug">Mug</option>
-						</select>
-					</td>
-					<td valign="top"><input type="text" name="newBeerName"></td>
-					<td valign="top"><input type="text" name="newBeerAbv"></td>
-					<td valign="top"><textarea name="newBeerDescription" rows="4" cols="30"></textarea></td>
-				</tr>
-				</table>
+				</select>
+				</div>
+				<div class="add-section">
+					<p class="add-header">Beer Name</p>
+					<input type="text" size="16" name="newBeerName">
+				</div>
+				<div class="add-section">
+					<p class="add-header">ABV & Size</p>
+					<input type="text" size="16" name="newBeerAbv">
+				</div>
+			</div>
+			<div class="modal-body">
+				<div class="add-section">
+					<p class="add-header">Description</p>
+					<textarea name="newBeerDescription" rows="3" cols="55"></textarea>
+				</div>
+			</div>
+			<div class="flex-it">
+				<div class="flex-section">
+					<img src="img/beersPint.png"><br/>Pint
+				</div>
+				<div class="flex-section">
+					<img src="img/beersStange.png"><br/>Stange
+				</div>
+				<div class="flex-section">
+					<img src="img/beersGoblet.png"><br/>Goblet
+				</div>
+				<div class="flex-section">
+					<img src="img/beersSnifter.png"><br/>Snifter
+				</div>
+				<div class="flex-section">
+					<img src="img/beersWeizen.png"><br/>Weizen
+				</div>
+				<div class="flex-section">
+					<img src="img/beersMug.png"><br/>Mug
+				</div>
 			</div>
 			<div class="modal-footer">
-				<input type="submit" value="Add Beer" class="btn-danger" /> 
+				<input type="submit" value="ADD this Beer" class="btn btn-info btn-lg" /> 
 				<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
 			</div>
 		</div>
