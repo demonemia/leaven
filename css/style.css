@@ -9,10 +9,6 @@ body {
 	padding-right: 15px;
 }
 
-#LeavenVideo iframe {
-	
-}
-
 a {
   color: #f8c219;
   transition: 0.5s;
@@ -601,10 +597,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
-.beerList li {
-	line-height: 1.8em;
-	color: black;
-	text-shadow: 1px 1px orange;
+.beerList {
+	margin-bottom: 35px;
 }
 
 /* Events Section

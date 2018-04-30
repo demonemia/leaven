@@ -4,6 +4,7 @@
 Rev 1.0 - 4/13: initial
 	1.1 - 4/14: Fixed iPhone scroll issue, cleaned up HTML
 	1.2 - 4/15: Fixed phone issues, updating stying in about
+	1.3 - 4/16: Added analtyics
 ############ -->
 <head>
 	<!-- Google Analytics -->
@@ -166,23 +167,48 @@ Rev 1.0 - 4/13: initial
           <h3 class="section-title">Our Beer</h3>
           <div class="section-title-divider"></div>
 		<h2 class="about-title">We make beer we like to drink, but don't worry... We'll make beer you like to drink too.</h2>
-		<!--<h3>What's on draft?</h3> -->
 		<p class="about-text">We make beer we like to drink, but don't worry...  We'll make beer you like to drink too. We always thought it was a fun process brewing new beers, trading different styles in and out to create a set of flagships. The goal here at Leaven is to become a neighborhood brewery with a hyper-local mindset. At this time we have no intention of distribution (KJ did enough of that at previous locations.) We're here to make beer for you, Riverview! Join us at the bar, tell us the styles you like. Let's start a great conversation about beer and figure out our core beers <strong>together</strong>. </p>
 		<p class="about-text">We aim to have 5 flagships which will be on at all times, and 5 rotational beers that will lend themselves to a more seasonal flair.</p>
 		
-		<div>
-			
-		</div>
-
+		<!-- let's render some beers -->
 		<?php
-			echo '<ul class="beerList">';
-			$fileString = file_get_contents('beers.txt');
-			echo '<li>';
-			$beerString = str_replace("\n",'</li><li>',$fileString);
-			echo $beerString;
-			echo '</li>';
-			echo '</ul>';
+			// DB connection
+			require 'beersDB.php';
+			// Get the current list
+			//$sql = 'SELECT image, name, abv, description FROM beers';
+			$sql = 'SELECT * FROM beers';
+			$dbOutput = $conn->query($sql);
+			if ($dbOutput -> num_rows > 0) {
+				while($row = $dbOutput ->fetch_assoc()) {
+					$dbImage = $row["image"];
+					$dbName = $row["name"];
+					$dbAbv = $row["abv"];
+					$dbDesc = $row["description"];
+					echo "<div class=\"row\">";
+					echo"<div class=\"col-md-2 beerList\">";
+					echo "<img src=\"img/beers$dbImage.png\" alt=\"glass\"/>";
+					echo "</div>";
+					echo "<div class=\"col-md-10\">";
+					echo "<h3>$dbName</h3>";
+					echo "<h4>$dbAbv</h4>";
+					echo "<p class=\"beerDescription\">$dbDesc</p>";
+					echo "</div>";
+					echo "</div>";
+				}
+			}
 		?>
+				
+<!--		<div class="row">
+			<div class="col-md-2 beerList">
+				<img src="img/beersSnifter.png" alt="Snifter glass"/>
+			</div>
+			<div class="col-md-10">
+				<h3>G'Boy Bailey IPA</h3>
+				<h4>7.7% ABV-16oz.</h4>
+				<p class="beerDescription">Heavily hopped Amarillo, Mosaic, and Citra east coast</p>
+			</div>
+		</div> -->
+
 		<!--<p class="section-description"><img src="img/barley.png" alt="" width="100"><img src="img/stout.png" alt="" width="100"><img src="img/ipa.png" alt="" width="100"><img src="img/brown.png" alt="" width="100"><img src="img/creamAle.png" alt="" width="100"><img src="img/barley.png" alt="" width="100"><img src="img/stout.png" alt="" width="100"><img src="img/ipa.png" alt="" width="100"><img src="img/brown.png" alt="" width="100"></p> -->
 		</div>
 		</div>
