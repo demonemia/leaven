@@ -173,7 +173,7 @@ Rev 1.0 - 4/13: initial
 		<!-- let's render some beers -->
 		<?php
 			// DB connection
-			require 'beersDB.php';
+			require 'cms/beersDB.php';
 			// Get the current list
 			//$sql = 'SELECT image, name, abv, description FROM beers';
 			$sql = 'SELECT * FROM beers';
@@ -216,31 +216,28 @@ Rev 1.0 - 4/13: initial
   </section>
 
  <!--  Events Section-->
-  <section id="events">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-			<h3 class="section-title">Events</h3>
+<section id="events">
+	<div class="container wow fadeInUp">
+		<div class="row">
+			<div class="col-md-12">
+				<h3 class="section-title">Events</h3>
+			</div>
 		</div>
-		<div class="col-md-4">
-			<!--<p class="section-description">Come and join us for a cold beer!</p>-->
-			<!-- FB events -->
-			<div class="fb-page" data-href="https://www.facebook.com/leavenbrewing/" data-tabs="events" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/leavenbrewing/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/leavenbrewing/">Leaven Brewing Co.</a></blockquote></div>
+		<!-- FB events -->
+		<div class="row">
+			<div class="col-md-4">
+				<div class="fb-page" data-href="https://www.facebook.com/leavenbrewing/" data-tabs="events" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/leavenbrewing/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/leavenbrewing/">Leaven Brewing Company</a></blockquote></div>
+			</div>
+			<div class="col-md-8">
+				<p class="about-text">There's a lot going on over here, <strong>come and join us</strong> for special brewery events!</p>
+				<!-- instagram feed -->
+			</div>
 		</div>
-		<div class="col-md-8">
-			<p class="about-text">There's a lot going on over here, <strong>come and join us</strong> for special brewery events!</p>
-		</div>
-	</div>
 	</div>
 </section>
 
 <!--
-<script>
-function fbResize() {
-	// Javascript is awesome - Adrian sucks
-	$(.fb-page).css.width('1000px');
-}
-</script>
+	Javascript is awesome - Adrian sucks
 -->
 
   <!--  Contact Section-->
@@ -250,9 +247,6 @@ function fbResize() {
         <div class="col-md-12">
           <h3 class="section-title">Contact Us</h3>
           <div class="section-title-divider"></div>
-			<!-- Instagram-->
-			<!--<a href="https://instawidget.net/v/user/LeavenBrewing" id="link-4d744d72d5b30229f93df3ef7dfc42e95af9ae11169e950145cba328c4195a73">@LeavenBrewing</a>
-			<script src="https://instawidget.net/js/instawidget.js?u=4d744d72d5b30229f93df3ef7dfc42e95af9ae11169e950145cba328c4195a73&width=400px"></script> -->
 			 <div id="ContactBump">
 				 <p class="about-text"><img class="linkIcon" src="img/facebook.svg" alt="Facebook">Find us on <a class="bodyLink" href="https://www.facebook.com/leavenbrewing/">Facebook!</a></p>
 				 <p class="about-text"><img class="linkIcon" src="img/instagram.svg" alt="Instagram">Stalk us on <a class="bodyLink" href="https://www.instagram.com/leavenbrewing/">Instagram</a></p>
@@ -330,7 +324,6 @@ function fbResize() {
   <script src="lib/easing/easing.js"></script>
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
-
 
 </body>
 
