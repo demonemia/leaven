@@ -284,6 +284,7 @@ function fbResize() {
           <div class="copyright">
             &copy; Copyright <strong>Leaven Brewing</strong>. All Rights Reserved
           </div>
+          <!-- // By the way, Adrian does not suck - Beer rulez -->
           <div class="credits">
           </div>
         </div>
