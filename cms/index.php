@@ -4,7 +4,7 @@
 ##############-->
 <html lang="en">
 	<head>
-		<link href="http://www.keyboarddevil.com/leaven/favicon.ico" rel="shortcut icon">
+		<link href="http://www.leavenbrewing.com/favicon.ico" rel="shortcut icon">
 		<title>Update the Beer List</title>
 		<link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="../css/style.css" rel="stylesheet">
@@ -124,7 +124,7 @@
 					<h1>Welcome!</h1>
 					<p>You must enter the password to continue.</p>
 					<form method="post" action="index.php">
-						<input type="text" name="password" size="8"> <input type="submit" name="submit" value="Submit">
+						<input type="password" name="password" size="8"> <input type="submit" name="submit" value="Submit">
 					</form>
 				</div>
 
