@@ -41,6 +41,8 @@ Rev 1.0 - 4/13: initial
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate-css/animate.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+<script src="js/instafeed.min.js"></script>
+
   <?php
 	  // Random bg image for hero
 	  $heroNumber = rand(1,7);
@@ -197,19 +199,6 @@ Rev 1.0 - 4/13: initial
 				}
 			}
 		?>
-				
-<!--		<div class="row">
-			<div class="col-md-2 beerList">
-				<img src="img/beersSnifter.png" alt="Snifter glass"/>
-			</div>
-			<div class="col-md-10">
-				<h3>G'Boy Bailey IPA</h3>
-				<h4>7.7% ABV-16oz.</h4>
-				<p class="beerDescription">Heavily hopped Amarillo, Mosaic, and Citra east coast</p>
-			</div>
-		</div> -->
-
-		<!--<p class="section-description"><img src="img/barley.png" alt="" width="100"><img src="img/stout.png" alt="" width="100"><img src="img/ipa.png" alt="" width="100"><img src="img/brown.png" alt="" width="100"><img src="img/creamAle.png" alt="" width="100"><img src="img/barley.png" alt="" width="100"><img src="img/stout.png" alt="" width="100"><img src="img/ipa.png" alt="" width="100"><img src="img/brown.png" alt="" width="100"></p> -->
 		</div>
 		</div>
 	</div>
@@ -221,6 +210,7 @@ Rev 1.0 - 4/13: initial
 		<div class="row">
 			<div class="col-md-12">
 				<h3 class="section-title">Events</h3>
+				<p class="about-text">Those gosh darn kids and their social media... Always uploading things on the inter webs, and book of faces. We have a lot going on here at Leaven Brewing, we’ll keep you informed on our Facebook and Instagram. Food trucks? We got those. Music? We got that too! Events? Those happen!</p>
 			</div>
 		</div>
 		<!-- FB events -->
@@ -229,8 +219,20 @@ Rev 1.0 - 4/13: initial
 				<div class="fb-page" data-href="https://www.facebook.com/leavenbrewing/" data-tabs="events" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/leavenbrewing/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/leavenbrewing/">Leaven Brewing Company</a></blockquote></div>
 			</div>
 			<div class="col-md-8">
-				<p class="about-text">There's a lot going on over here, <strong>come and join us</strong> for special brewery events!</p>
 				<!-- instagram feed -->
+				<h3>Follow <strong>@LeavenBrewing</strong> on Instagram</h3>
+				<script type="text/javascript">
+					var userFeed = new Instafeed({
+						get: 'user',
+						userId: '3538884865',
+						accessToken: '3538884865.04a6d0c.ec0589bf210e4ff6afcc326e268e23b2',
+						template: '<a href="{{link}}"><img class="instaFeed" src="{{image}}" /></a>',
+						limit: '12'
+					});
+					userFeed.run();
+				</script>
+				<!--Stick it in!-->
+				<div id="instafeed"></div>
 			</div>
 		</div>
 	</div>

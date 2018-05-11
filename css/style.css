@@ -641,7 +641,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #f8c219;
   border: 2px solid #f8c219;
 }
-
+#instafeed {
+	margin: 4px;
+	width: 660px;
+}
+.instaFeed {
+	margin: 4px;
+}
+@media (max-width:768px) {
+	#instafeed {
+		width: 320px;
+		margin: 10px;
+	}
+	.instafeed {
+		width: 25px;
+	}
+}
 /* Contact Section
 --------------------------------*/
 #contact {
