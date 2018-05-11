@@ -1,53 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- ############
-Rev 1.0 - 4/13: initial
-	1.1 - 4/14: Fixed iPhone scroll issue, cleaned up HTML
-	1.2 - 4/15: Fixed phone issues, updating stying in about
-	1.3 - 4/16: Added analtyics
+Tabs over spaces.
 ############ -->
 <head>
 	<!-- Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3474776-4"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'UA-3474776-4');
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-3474776-4');
 	</script>
-  <meta charset="utf-8">
-  <title>Leaven Brewing</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="brewery, leaven brewing, riverview brewery, florida brewery" name="keywords">
-  <meta content="Leaven Brewing - Transforming Grain for the Better" name="description">
+	<meta charset="utf-8">
+	<title>Leaven Brewing</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="brewery, leaven brewing, riverview brewery, florida brewery" name="keywords">
+	<meta content="Leaven Brewing - Transforming Grain for the Better" name="description">
 
-  <!-- Facebook Opengraph -->
-  <meta property="og:title" content="Leaven Brewing - Transforming Grain for the Better">
-  <meta property="og:image" content="http://keyboarddevil.com/leaven/img/LeavenLogoTrans.png">
-  <meta property="og:url" content="http://keyboarddevil.com/leaven/">
-  <meta property="og:site_name" content="Leaven Brewing - Transforming Grain for the Better">
-  <meta property="og:description" content="Leaven Brewing - Riverview Florida's first brewery">
+	<!-- Facebook Opengraph -->
+	<meta property="og:title" content="Leaven Brewing - Transforming Grain for the Better">
+	<meta property="og:image" content="http://www.leavenbrewing.com/img/LeavenLogoTrans.png">
+	<meta property="og:url" content="http://www.leavenbrewing.com/">
+	<meta property="og:site_name" content="Leaven Brewing - Transforming Grain for the Better">
+	<meta property="og:description" content="Leaven Brewing - Riverview Florida's first brewery">
 
-  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@LeavenBrewing">
-  <meta name="twitter:title" content="Leaven Brewing - Transforming Grain for the Better">
-  <meta name="twitter:description" content="Riverview Florida's first brewery">
-  <meta name="twitter:image" content="http://keyboarddevil.com/leaven/img/LeavenLogoTrans.png">
+	<!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@LeavenBrewing">
+	<meta name="twitter:title" content="Leaven Brewing - Transforming Grain for the Better">
+	<meta name="twitter:description" content="Riverview Florida's first brewery">
+	<meta name="twitter:image" content="http://keyboarddevil.com/leaven/img/LeavenLogoTrans.png">
 
-  <link href="http://www.keyboarddevil.com/leaven/favicon.ico" rel="shortcut icon">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate-css/animate.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-<script src="js/instafeed.min.js"></script>
+	<link href="http://www.leavenbrewing.com/favicon.ico" rel="shortcut icon">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="lib/animate-css/animate.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<script src="js/instafeed.min.js"></script>
 
-  <?php
+	<?php
 	  // Random bg image for hero
 	  $heroNumber = rand(1,7);
 	  echo '<style>#hero { background: url(img/hero-bg'.$heroNumber.'.jpg) top center fixed;}</style>';
-  ?>
+	?>
 </head>
 
 <body>
