@@ -114,7 +114,7 @@ Rev 1.0 - 4/13: initial
           <!--<p class="section-description"></p>-->
 		  <h2>We are KJ and Jillian and we make beer!</h2>
 		  <div id="LeavenVideo">
-			<iframe width="350" src="https://www.youtube.com/embed/Ao3Nl5mHc0k?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<iframe width="350" src="https://www.youtube.com/embed/Ao3Nl5mHc0k?rel=0&amp;showinfo=0" allowfullscreen></iframe>
 		</div>
 		  <p class="about-text">It was pointed out to me the other night that what we're creating is something truly unique, and individual to us. Now, I am the first person to admit that a opening a brewery is not novel, brewing a citra-hopped pale ale is nothing extraordinary (although it is very delicious), and our concrete bar tops are nothing you haven't seen before.</p>
 		  <p class="about-text"><strong>However</strong>, the makeup of who is behind Leaven Brewing is what makes this place, our place (soon to be your place) a really neat, individual, independent of other projects kind of place. </p>
@@ -151,7 +151,7 @@ Rev 1.0 - 4/13: initial
 			<img src="img/brew.jpg" class="inlineAlt" alt="Brewhouse McBrewface" />
 		</div>
 		<div class="col-md-5">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4988.62079217155!2d-82.31784807280489!3d27.856288575925834!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88007e466424b17d!2sLeaven+Brewing+Co.!5e0!3m2!1sen!2sus!4v1515555022902" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4988.62079217155!2d-82.31784807280489!3d27.856288575925834!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88007e466424b17d!2sLeaven+Brewing+Co.!5e0!3m2!1sen!2sus!4v1515555022902" style="border:0" allowfullscreen></iframe>
 		</div>
 		<div class="col-md-7">
 		  <p class="about-text call-out">So come on in and join us for a pint!  You can find us right in the heart of Riverview at:</p>
@@ -221,7 +221,7 @@ Rev 1.0 - 4/13: initial
 			<div class="col-md-8">
 				<!-- instagram feed -->
 				<h3>Follow <strong>@LeavenBrewing</strong> on Instagram</h3>
-				<script type="text/javascript">
+				<script>
 					var userFeed = new Instafeed({
 						get: 'user',
 						userId: '3538884865',
