@@ -184,11 +184,9 @@ Tabs over spaces.
 					$dbAbv = $row["abv"];
 					$dbDesc = $row["description"];
 					echo "<div class=\"row\">";
-					echo"<div class=\"col-md-2 beerList\">";
+					echo"<div class=\"col-md-12 beerList\">";
 					echo "<img src=\"img/beers$dbImage.png\" alt=\"glass\"/>";
-					echo "</div>";
-					echo "<div class=\"col-md-10\">";
-					echo "<h3>$dbName</h3>";
+					echo "<h3 class=\"beerTitle\">$dbName</h3>";
 					echo "<h4>$dbAbv</h4>";
 					echo "<p class=\"beerDescription\">$dbDesc</p>";
 					echo "</div>";
