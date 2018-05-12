@@ -30,7 +30,7 @@ Tabs over spaces.
 	<meta name="twitter:site" content="@LeavenBrewing">
 	<meta name="twitter:title" content="Leaven Brewing - Transforming Grain for the Better">
 	<meta name="twitter:description" content="Riverview Florida's first brewery">
-	<meta name="twitter:image" content="http://keyboarddevil.com/leaven/img/LeavenLogoTrans.png">
+	<meta name="twitter:image" content="http://www.leavenbrewing.com/img/LeavenLogoTrans.png">
 
 	<link href="http://www.leavenbrewing.com/favicon.ico" rel="shortcut icon">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
