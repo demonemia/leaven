@@ -103,7 +103,7 @@ Tabs over spaces.
 
   <!--  About Us-->
   <section id="about">
-    <div class="container wow fadeInUp">
+    <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h3 class="section-title">Who is Leaven Brewing?</h3>
@@ -113,14 +113,14 @@ Tabs over spaces.
 		  <div id="LeavenVideo">
 			<iframe width="350" src="https://www.youtube.com/embed/Ao3Nl5mHc0k?rel=0&amp;showinfo=0" allowfullscreen></iframe>
 		</div>
-		  <p class="about-text">It was pointed out to me the other night that what we're creating is something truly unique, and individual to us. Now, I am the first person to admit that a opening a brewery is not novel, brewing a citra-hopped pale ale is nothing extraordinary (although it is very delicious), and our concrete bar tops are nothing you haven't seen before.</p>
+			<p class="about-text">It was pointed out to me the other night that what we're creating is something truly unique, and individual to us. Now, I am the first person to admit that a opening a brewery is not novel, brewing a citra-hopped pale ale is nothing extraordinary (although it is very delicious), and our concrete bar tops are nothing you haven't seen before.</p>
 		  <p class="about-text"><strong>However</strong>, the makeup of who is behind Leaven Brewing is what makes this place, our place (soon to be your place) a really neat, individual, independent of other projects kind of place. </p>
-		 </div>
-		 <div class="col-md-8">
-			  <p class="about-text">KJ has brewing experience that is unlike most others. Not to say it's better in any way - but it is different. KJ started at Fort Myers Brewing Co. and learned the process from Rob, the owner there. KJ quickly became the head brewer of Fort Myers, which went on to receive respectable awards at Best Florida Beer, and collect accolades on RateBeer. </p>
-			  <p class="about-text">After FMB, KJ became the senior brewer at Brew Hub, ultimately helping other local brands to grow their beers. Brewhub, unlike FMB, was a 100bbl system (#nbd) and produced roughly around 98,000 barrels of beer a year. </p>
-			  <p class="about-text">KJ is a brewer, who's learned under some super unique circumstances, but he's also now the owner of a brewery. A brewery that was built with his own hands, beer recipes written by him and brewed by him. At Leaven Brewing you are experiencing the absolute heart and soul of everything KJ has ever worked for. We are a husband and wife team who has taken everything we've had (and all of our sleep) to build a place where people can connect while drinking some dang delicious stuff. We grew this. No frills, no venture capitalists, no investment group, just us and our long list of friends that we are absolutely the most grateful for. </p>
-	  </div>
+		</div>
+		<div class="col-md-8">
+			<p class="about-text">KJ has brewing experience that is unlike most others. Not to say it's better in any way - but it is different. KJ started at Fort Myers Brewing Co. and learned the process from Rob, the owner there. KJ quickly became the head brewer of Fort Myers, which went on to receive respectable awards at Best Florida Beer, and collect accolades on RateBeer. </p>
+			<p class="about-text">After FMB, KJ became the senior brewer at Brew Hub, ultimately helping other local brands to grow their beers. Brewhub, unlike FMB, was a 100bbl system (#nbd) and produced roughly around 98,000 barrels of beer a year. </p>
+			<p class="about-text">KJ is a brewer, who's learned under some super unique circumstances, but he's also now the owner of a brewery. A brewery that was built with his own hands, beer recipes written by him and brewed by him. At Leaven Brewing you are experiencing the absolute heart and soul of everything KJ has ever worked for. We are a husband and wife team who has taken everything we've had (and all of our sleep) to build a place where people can connect while drinking some dang delicious stuff. We grew this. No frills, no venture capitalists, no investment group, just us and our long list of friends that we are absolutely the most grateful for. </p>
+		</div>
 		<div class="col-md-4">
 			<img class="inlineAlt" src="img/aboutQuad.jpg" alt="photos"/>
 		</div>
@@ -134,7 +134,7 @@ Tabs over spaces.
 
   <!--  Brewery Section-->
   <section id="brewery">
-    <div class="container wow fadeInUp">
+    <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h3 class="section-title">Brewery</h3>
@@ -160,7 +160,7 @@ Tabs over spaces.
 
   <!--  Our Beer-->
   <section id="beer">
-    <div class="container wow fadeInUp">
+    <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h3 class="section-title">Our Beer</h3>
@@ -201,7 +201,7 @@ Tabs over spaces.
 
  <!--  Events Section-->
 <section id="events">
-	<div class="container wow fadeInUp">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<h3 class="section-title">Events</h3>
@@ -239,58 +239,20 @@ Tabs over spaces.
 
   <!--  Contact Section-->
   <section id="contact">
-    <div class="container wow fadeInUp">
+    <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h3 class="section-title">Contact Us</h3>
           <div class="section-title-divider"></div>
-			 <div id="ContactBump">
+			<div id="ContactBump">
 				 <p class="about-text"><img class="linkIcon" src="img/facebook.svg" alt="Facebook">Find us on <a class="bodyLink" href="https://www.facebook.com/leavenbrewing/">Facebook!</a></p>
 				 <p class="about-text"><img class="linkIcon" src="img/instagram.svg" alt="Instagram">Stalk us on <a class="bodyLink" href="https://www.instagram.com/leavenbrewing/">Instagram</a></p>
 				 <p class="about-text"><img class="linkIcon" src="img/twitter.svg" alt="Twitter">Watch us on <a class="bodyLink" href="https://twitter.com/LeavenBrewing">Twitter</a></p>
 				 <p class="about-text"><img class="linkIcon" src="img/email.svg" alt="Email">Go "old school" and <a href="mailto:hello@leavebrewing.com" class="bodyLink">send us an email</a></p>
-			  </div>
+			 </div>
         </div>
       </div>
-<!--      <div class="row">
-        <div class="col-md-3 col-md-push-2">
-            <div>
-              <i class="fa fa-envelope"></i>
-              <p>info@leavenbrewing.com</p>
-            </div>
-            <div>
-              <i class="fa fa-phone"></i>
-              <p>813.555.1234</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-5 col-md-push-2">
-          <div class="form">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validation"></div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-        </div>-->
-      </div>
+    </div>
   </section>
 
 <!--  Footer-->

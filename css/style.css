@@ -607,11 +607,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 	padding-right: 8px;
 }
 .beerDescription {
-	clear:both;
+	/*clear:both;*/
+	margin-left: 100px;
 }
+@media (max-width:768px) {
+	.beerDescription {
+	clear:both;
+	margin:inherit;
+	}
+}
+
 /* Events Section
 --------------------------------*/
-
 #events .events-title {
   color: #fff;
   font-size: 28px;
