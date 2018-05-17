@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- ############
-Tabs over spaces.
-############ -->
 <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="brewery, leaven brewing, riverview brewery, florida brewery" name="keywords">
+  <meta content="Leaven Brewing - Transforming Grain for the Better" name="description">
 	<!-- Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3474776-4"></script>
 	<script>
@@ -12,12 +13,22 @@ Tabs over spaces.
 		gtag('js', new Date());
 		gtag('config', 'UA-3474776-4');
 	</script>
-	<meta charset="utf-8">
 	<title>Leaven Brewing</title>
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta content="brewery, leaven brewing, riverview brewery, florida brewery" name="keywords">
-	<meta content="Leaven Brewing - Transforming Grain for the Better" name="description">
-
+  <link rel="alternate" href="https://www.leavenbrewing.com" hreflang="en-us" />	
+  
+  <!-- Rich snippet data -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "Leaven Brewing - Transforming Grain for the Better",
+    "url": "http://www.leavenbrewing.com",
+    "logo": "http://www.leavenbrewing.com/img/LeavenLogoTrans.png",
+    "address": "11238 Boyette Rd, Riverview, FL 33569",
+    "sameAs": ["http://www.facebook.com/leavenbrewing", "http://www.instagram.com/leavenbrewing","http://www.twitter.com/leavenbrewing"],
+    "telephone": "+1-813-677-7023"
+  }
+  </script>
 	<!-- Facebook Opengraph -->
 	<meta property="og:title" content="Leaven Brewing - Transforming Grain for the Better">
 	<meta property="og:image" content="http://www.leavenbrewing.com/img/LeavenLogoTrans.png">

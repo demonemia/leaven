@@ -72,7 +72,7 @@
 				// Logic complete, redirect to index
 				//echo "<script>window.location.href='index.php'</script>";
 		?>
-		<h1>Welcome to Beer List 2.0</h1>
+    <h1>Update the Beer List</h1>
 		<form method="post" action="index.php">
 			<?php
 			echo "<input type=\"hidden\" name=\"password\" value=\"$password\">";
@@ -139,22 +139,13 @@
 				<div class="add-section">
 					<p class="add-header">Image <span class="addDetail">(choose below)</span></p>
 					<div id="AddImageDiv"></div>
-					<!--<select name="newBeerImage" id="beerImgSelector">
-						<option value="">Choose Image</option>
-						<option value="Pint">Pint</option>
-						<option value="Stange">Stange</option>
-						<option value="Goblet">Goblet</option>
-						<option value="Snifter">Snifter</option>
-						<option value="Weizen">Weizen</option>
-						<option value="Mug">Mug</option>
-				</select> -->
 				</div>
 				<div class="add-section">
 					<p class="add-header">Beer Name</p>
 					<input type="text" size="16" name="newBeerName">
 				</div>
 				<div class="add-section">
-					<p class="add-header">ABV & Size</p>
+          <p class="add-header">ABV &amp; Size</p>
 					<input type="text" size="16" name="newBeerAbv">
 				</div>
 			</div>
