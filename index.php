@@ -5,15 +5,15 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="brewery, leaven brewing, riverview brewery, florida brewery" name="keywords">
   <meta content="Leaven Brewing - Transforming Grain for the Better" name="description">
-	<!-- Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3474776-4"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-3474776-4');
-	</script>
-	<title>Leaven Brewing</title>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3474776-4"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-3474776-4');
+  </script>
+  <title>Leaven Brewing</title>
   <link rel="alternate" href="https://www.leavenbrewing.com" hreflang="en-us" />	
   
   <!-- Rich snippet data -->
@@ -29,33 +29,34 @@
     "telephone": "+1-813-677-7023"
   }
   </script>
-	<!-- Facebook Opengraph -->
-	<meta property="og:title" content="Leaven Brewing - Transforming Grain for the Better">
-	<meta property="og:image" content="http://www.leavenbrewing.com/img/LeavenLogoTrans.png">
-	<meta property="og:url" content="http://www.leavenbrewing.com/">
-	<meta property="og:site_name" content="Leaven Brewing - Transforming Grain for the Better">
-	<meta property="og:description" content="Leaven Brewing - Riverview Florida's first brewery">
+  
+  <!-- Facebook Opengraph -->
+  <meta property="og:title" content="Leaven Brewing - Transforming Grain for the Better">
+  <meta property="og:image" content="http://www.leavenbrewing.com/img/LeavenLogoTrans.png">
+  <meta property="og:url" content="http://www.leavenbrewing.com/">
+  <meta property="og:site_name" content="Leaven Brewing - Transforming Grain for the Better">
+  <meta property="og:description" content="Leaven Brewing - Riverview Florida's first brewery">
 
-	<!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="@LeavenBrewing">
-	<meta name="twitter:title" content="Leaven Brewing - Transforming Grain for the Better">
-	<meta name="twitter:description" content="Riverview Florida's first brewery">
-	<meta name="twitter:image" content="http://www.leavenbrewing.com/img/LeavenLogoTrans.png">
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@LeavenBrewing">
+  <meta name="twitter:title" content="Leaven Brewing - Transforming Grain for the Better">
+  <meta name="twitter:description" content="Riverview Florida's first brewery">
+  <meta name="twitter:image" content="http://www.leavenbrewing.com/img/LeavenLogoTrans.png">
 
-	<link href="http://www.leavenbrewing.com/favicon.ico" rel="shortcut icon">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
-	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
-	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<link href="lib/animate-css/animate.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<script src="js/instafeed.min.js"></script>
+  <link href="http://www.leavenbrewing.com/favicon.ico" rel="shortcut icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate-css/animate.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/instafeed.min.js"></script>
 
-	<?php
-	  // Random bg image for hero
-	  $heroNumber = rand(1,7);
-	  echo '<style>#hero { background: url(img/hero-bg'.$heroNumber.'.jpg) top center fixed;}</style>';
-	?>
+  <?php
+    // Random bg image for hero
+    $heroNumber = rand(1,7);
+    echo '<style>#hero { background: url(img/hero-bg'.$heroNumber.'.jpg) top center fixed;}</style>';
+  ?>
 </head>
 
 <body>
@@ -179,7 +180,7 @@
 		<h3 class="about-title">We make beer we like to drink, but don't worry... We'll make beer you like to drink too.</h3>
 		<p class="about-text">We make beer we like to drink, but don't worry...  We'll make beer you like to drink too. We always thought it was a fun process brewing new beers, trading different styles in and out to create a set of flagships. The goal here at Leaven is to become a neighborhood brewery with a hyper-local mindset. At this time we have no intention of distribution (KJ did enough of that at previous locations.) We're here to make beer for you, Riverview! Join us at the bar, tell us the styles you like. Let's start a great conversation about beer and figure out our core beers <strong>together</strong>. </p>
 		<p class="about-text">We aim to have 5 flagships which will be on at all times, and 5 rotational beers that will lend themselves to a more seasonal flair.</p>
-		
+
         <h4>What's on Tap?</h4>
 		<!-- let's render some beers -->
 		<?php
@@ -256,12 +257,12 @@
         <div class="col-md-12">
           <h2 class="section-title">Contact Us</h2>
           <div class="section-title-divider"></div>
-			<div id="ContactBump">
-				 <p class="about-text"><img class="linkIcon" src="img/facebook.svg" alt="Facebook">Find us on <a class="bodyLink" href="https://www.facebook.com/leavenbrewing/">Facebook!</a></p>
-				 <p class="about-text"><img class="linkIcon" src="img/instagram.svg" alt="Instagram">Stalk us on <a class="bodyLink" href="https://www.instagram.com/leavenbrewing/">Instagram</a></p>
-				 <p class="about-text"><img class="linkIcon" src="img/twitter.svg" alt="Twitter">Watch us on <a class="bodyLink" href="https://twitter.com/LeavenBrewing">Twitter</a></p>
-				 <p class="about-text"><img class="linkIcon" src="img/email.svg" alt="Email">Go "old school" and <a href="mailto:hello@leavebrewing.com" class="bodyLink">send us an email</a></p>
-			 </div>
+          <div id="ContactBump">
+            <p class="about-text"><img class="linkIcon" src="img/facebook.svg" alt="Facebook">Find us on <a class="bodyLink" href="https://www.facebook.com/leavenbrewing/">Facebook!</a></p>
+            <p class="about-text"><img class="linkIcon" src="img/instagram.svg" alt="Instagram">Stalk us on <a class="bodyLink" href="https://www.instagram.com/leavenbrewing/">Instagram</a></p>
+            <p class="about-text"><img class="linkIcon" src="img/twitter.svg" alt="Twitter">Watch us on <a class="bodyLink" href="https://twitter.com/LeavenBrewing">Twitter</a></p>
+            <p class="about-text"><img class="linkIcon" src="img/email.svg" alt="Email">Go "old school" and <a href="mailto:hello@leavebrewing.com" class="bodyLink">send us an email</a></p>
+          </div>
         </div>
       </div>
     </div>
