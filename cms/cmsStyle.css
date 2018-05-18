@@ -75,7 +75,7 @@ th {
 }
 .flex-it {
 	display: flex;
-	justify-content: center space-around;
+  justify-content: space-around;
 }
 .flex-it img {
 	height: 80px;
