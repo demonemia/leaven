@@ -117,10 +117,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Who is Leaven Brewing?</h3>
+          <h2 class="section-title">Who is Leaven Brewing?</h2>
           <div class="section-title-divider"></div>
           <!--<p class="section-description"></p>-->
-		  <h2>We are KJ and Jillian and we make beer!</h2>
+		  <h3>We are KJ and Jillian and we make beer!</h3>
 		  <div id="LeavenVideo">
 			<iframe width="350" src="https://www.youtube.com/embed/Ao3Nl5mHc0k?rel=0&amp;showinfo=0" allowfullscreen></iframe>
 		</div>
@@ -148,9 +148,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Brewery</h3>
+          <h2 class="section-title">Brewery</h2>
           <div class="section-title-divider"></div>
-			<h2>Here's where we make the beer!  Come on in and try a sip!</h2>
+			<h3>Here's where we make the beer!  Come on in and try a sip!</h3>
 		 </div>
 		<div class="col-md-8">
 		  <p class="about-text">Meet <span class="brewface">Brewhouse Mc Brewface</span>, a big hunk of 304 stainless steel construction with glass manways, American made Baldor SS washdown pumps, and an available production of 5bbls. He likes long rinse cycles of brewer's no. 5 and can't resist a good caustic cycle. Most brewhouses his size don't come with automatic rakes and plows, but Brewhouse McBrewface does.</p>
@@ -174,12 +174,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Our Beer</h3>
+          <h2 class="section-title">Our Beer</h2>
           <div class="section-title-divider"></div>
-		<h2 class="about-title">We make beer we like to drink, but don't worry... We'll make beer you like to drink too.</h2>
+		<h3 class="about-title">We make beer we like to drink, but don't worry... We'll make beer you like to drink too.</h3>
 		<p class="about-text">We make beer we like to drink, but don't worry...  We'll make beer you like to drink too. We always thought it was a fun process brewing new beers, trading different styles in and out to create a set of flagships. The goal here at Leaven is to become a neighborhood brewery with a hyper-local mindset. At this time we have no intention of distribution (KJ did enough of that at previous locations.) We're here to make beer for you, Riverview! Join us at the bar, tell us the styles you like. Let's start a great conversation about beer and figure out our core beers <strong>together</strong>. </p>
 		<p class="about-text">We aim to have 5 flagships which will be on at all times, and 5 rotational beers that will lend themselves to a more seasonal flair.</p>
 		
+        <h4>What's on Tap?</h4>
 		<!-- let's render some beers -->
 		<?php
 			// DB connection
@@ -198,7 +199,7 @@
 					echo"<div class=\"col-md-12 beerList\">";
 					echo "<img src=\"img/beers$dbImage.png\" alt=\"glass\"/>";
 					echo "<h3 class=\"beerTitle\">$dbName</h3>";
-					echo "<h4>$dbAbv</h4>";
+					echo "<h5>$dbAbv</h5>";
 					echo "<p class=\"beerDescription\">$dbDesc</p>";
 					echo "</div>";
 					echo "</div>";
@@ -215,7 +216,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h3 class="section-title">Events</h3>
+				<h2 class="section-title">Events</h2>
 				<p class="about-text">Those gosh darn kids and their social media... Always uploading things on the inter webs, and book of faces. We have a lot going on here at Leaven Brewing, we’ll keep you informed on our Facebook and Instagram. Food trucks? We got those. Music? We got that too! Events? Those happen!</p>
 			</div>
 		</div>
@@ -253,7 +254,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Contact Us</h3>
+          <h2 class="section-title">Contact Us</h2>
           <div class="section-title-divider"></div>
 			<div id="ContactBump">
 				 <p class="about-text"><img class="linkIcon" src="img/facebook.svg" alt="Facebook">Find us on <a class="bodyLink" href="https://www.facebook.com/leavenbrewing/">Facebook!</a></p>
