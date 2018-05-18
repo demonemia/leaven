@@ -550,6 +550,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .signature {
 	margin-left: 50px;
 }
+.gMaps {
+  width:100%;
+}
 
 /* Beer Section
 --------------------------------*/
