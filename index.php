@@ -160,7 +160,7 @@
 			<img src="img/brew.jpg" class="inlineAlt" alt="Brewhouse McBrewface" />
 		</div>
 		<div class="col-md-5">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4988.62079217155!2d-82.31784807280489!3d27.856288575925834!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88007e466424b17d!2sLeaven+Brewing+Co.!5e0!3m2!1sen!2sus!4v1515555022902" style="border:0" allowfullscreen></iframe>
+			<iframe class="gMaps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4988.62079217155!2d-82.31784807280489!3d27.856288575925834!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88007e466424b17d!2sLeaven+Brewing+Co.!5e0!3m2!1sen!2sus!4v1515555022902" style="border:0" allowfullscreen></iframe>
 		</div>
 		<div class="col-md-7">
 		  <p class="about-text call-out">So come on in and join us for a pint!  You can find us right in the heart of Riverview at:</p>
