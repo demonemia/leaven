@@ -83,10 +83,6 @@ h4 {
   }
 }
 
-@media (max-width:1024px){
-  .inlineAlt {
-    max-width: 320px;
-}
 @media (max-width: 768px) {
 	.inlineAlt {
 	max-width:100%;
