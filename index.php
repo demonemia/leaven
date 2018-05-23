@@ -288,7 +288,7 @@ _    ____ ____ _  _ ____ _  _    ___  ____ ____ _ _ _ _ _  _ ____
 </section>
 
 <!--
-	Javascript is awesome - Adrian sucks
+	Javascript is awesome - Adrian sucks, although less now that the git pull works.
 -->
 
   <!--  Contact Section-->
