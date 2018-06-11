@@ -299,6 +299,7 @@ _    ____ ____ _  _ ____ _  _    ___  ____ ____ _ _ _ _ _  _ ____
           <h2 class="section-title">Contact Us</h2>
           <div class="section-title-divider"></div>
           <div id="ContactBump">
+            <p class="about-text"><img class="linkIcon" src="img/blog.svg" alt="Facebook">Read our new <a class="bodyLink" href="/blog/">Blog!</a></p>
             <p class="about-text"><img class="linkIcon" src="img/facebook.svg" alt="Facebook">Find us on <a class="bodyLink" href="https://www.facebook.com/leavenbrewing/">Facebook!</a></p>
             <p class="about-text"><img class="linkIcon" src="img/instagram.svg" alt="Instagram">Stalk us on <a class="bodyLink" href="https://www.instagram.com/leavenbrewing/">Instagram</a></p>
             <p class="about-text"><img class="linkIcon" src="img/twitter.svg" alt="Twitter">Watch us on <a class="bodyLink" href="https://twitter.com/LeavenBrewing">Twitter</a></p>
