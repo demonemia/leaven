@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Site by Frank: www.KeyboardDevil.com -->
+  <!-- Site by Frank - www.KeyboardDevil.com -->
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="brewery, leaven brewing, riverview brewery, florida brewery" name="keywords">
@@ -9,10 +9,10 @@
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3474776-4"></script>
   <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-3474776-4');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-3474776-4');
   </script>
   <title>Leaven Brewing</title>
   <link rel="alternate" href="https://www.leavenbrewing.com" hreflang="en-us" />	
@@ -59,6 +59,7 @@
     echo '<style>#hero { background: url(img/hero-bg'.$heroNumber.'.jpg) top center fixed;}</style>';
   ?>
 </head>
+  
 <!--
 MMMMMNys+::::+++oyddyyyy+yyNMMMMMMMMMMMMMMMMMMMMMM
 NNNNdhhhhhhhhhhhhhhhhhhhhhhhdNNNNNNNNNNNNNNNNNNNMM
@@ -102,14 +103,14 @@ _    ____ ____ _  _ ____ _  _    ___  ____ ____ _ _ _ _ _  _ ____
 
 <body>
 
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=371493729928919&autoLogAppEvents=1';
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=371493729928919&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
   <div id="preloader"></div>
 
@@ -141,12 +142,12 @@ _    ____ ____ _  _ ____ _  _    ___  ____ ____ _ _ _ _ _  _ ____
           <li class="menu-active"><a href="#hero">Home</a></li>
           <li><a href="#about">Our Story</a></li>
           <li><a href="#brewery">The Brewery</a></li>
-		  <li><a href="#beer">Our Beer</a></li>
+          <li><a href="#beer">Our Beer</a></li>
           <li><a href="#events">Events</a></li>
           <li><a href="#contact">Contact Us</a></li>
-		  <li><a href="https://www.facebook.com/leavenbrewing/"><img alt="Facebook" class="linkIcon" src="img/facebook.svg"></a></li>
-		  <li><a href="https://www.instagram.com/leavenbrewing/"><img alt="Instagram" class="linkIcon" src="img/instagram.svg"></a></li>
-		  <li><a href="https://twitter.com/LeavenBrewing"><img alt="Twitter" class="linkIcon" src="img/twitter.svg"></a></li>
+          <li><a href="https://www.facebook.com/leavenbrewing/"><img alt="Facebook" class="linkIcon" src="img/facebook.svg"></a></li>
+          <li><a href="https://www.instagram.com/leavenbrewing/"><img alt="Instagram" class="linkIcon" src="img/instagram.svg"></a></li>
+          <li><a href="https://twitter.com/LeavenBrewing"><img alt="Twitter" class="linkIcon" src="img/twitter.svg"></a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
@@ -162,27 +163,27 @@ _    ____ ____ _  _ ____ _  _    ___  ____ ____ _ _ _ _ _  _ ____
           <h2 class="section-title">Who is Leaven Brewing?</h2>
           <div class="section-title-divider"></div>
           <!--<p class="section-description"></p>-->
-		  <h3>We are KJ and Jillian and we make beer!</h3>
-		  <div id="LeavenVideo">
-			<iframe width="350" src="https://www.youtube.com/embed/Ao3Nl5mHc0k?rel=0&amp;showinfo=0" allowfullscreen></iframe>
-		</div>
-			<p class="about-text">It was pointed out to me the other night that what we're creating is something truly unique, and individual to us. Now, I am the first person to admit that a opening a brewery is not novel, brewing a citra-hopped pale ale is nothing extraordinary (although it is very delicious), and our concrete bar tops are nothing you haven't seen before.</p>
-		  <p class="about-text"><strong>However</strong>, the makeup of who is behind Leaven Brewing is what makes this place, our place (soon to be your place) a really neat, individual, independent of other projects kind of place. </p>
-		</div>
-		<div class="col-md-8">
-			<p class="about-text">KJ has brewing experience that is unlike most others. Not to say it's better in any way - but it is different. KJ started at Fort Myers Brewing Co. and learned the process from Rob, the owner there. KJ quickly became the head brewer of Fort Myers, which went on to receive respectable awards at Best Florida Beer, and collect accolades on RateBeer. </p>
-			<p class="about-text">After FMB, KJ became the senior brewer at Brew Hub, ultimately helping other local brands to grow their beers. Brewhub, unlike FMB, was a 100bbl system (#nbd) and produced roughly around 98,000 barrels of beer a year. </p>
-			<p class="about-text">KJ is a brewer, who's learned under some super unique circumstances, but he's also now the owner of a brewery. A brewery that was built with his own hands, beer recipes written by him and brewed by him. At Leaven Brewing you are experiencing the absolute heart and soul of everything KJ has ever worked for. We are a husband and wife team who has taken everything we've had (and all of our sleep) to build a place where people can connect while drinking some dang delicious stuff. We grew this. No frills, no venture capitalists, no investment group, just us and our long list of friends that we are absolutely the most grateful for. </p>
-		</div>
-		<div class="col-md-4">
-			<img class="inlineAlt" src="img/aboutQuad.jpg" alt="photos"/>
-		</div>
-		<div class="col-md-12 signature"><br />
-		  <h2>We are Leaven Brewing.</h2>
-		  (and we're super excited to meet you)
-		  </div>
+          <h3>We are KJ and Jillian and we make beer!</h3>
+          <div id="LeavenVideo">
+            <iframe width="350" src="https://www.youtube.com/embed/Ao3Nl5mHc0k?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+          </div>
+          <p class="about-text">It was pointed out to me the other night that what we're creating is something truly unique, and individual to us. Now, I am the first person to admit that a opening a brewery is not novel, brewing a citra-hopped pale ale is nothing extraordinary (although it is very delicious), and our concrete bar tops are nothing you haven't seen before.</p>
+          <p class="about-text"><strong>However</strong>, the makeup of who is behind Leaven Brewing is what makes this place, our place (soon to be your place) a really neat, individual, independent of other projects kind of place. </p>
+        </div>
+        <div class="col-md-8">
+          <p class="about-text">KJ has brewing experience that is unlike most others. Not to say it's better in any way - but it is different. KJ started at Fort Myers Brewing Co. and learned the process from Rob, the owner there. KJ quickly became the head brewer of Fort Myers, which went on to receive respectable awards at Best Florida Beer, and collect accolades on RateBeer. </p>
+          <p class="about-text">After FMB, KJ became the senior brewer at Brew Hub, ultimately helping other local brands to grow their beers. Brewhub, unlike FMB, was a 100bbl system (#nbd) and produced roughly around 98,000 barrels of beer a year. </p>
+          <p class="about-text">KJ is a brewer, who's learned under some super unique circumstances, but he's also now the owner of a brewery. A brewery that was built with his own hands, beer recipes written by him and brewed by him. At Leaven Brewing you are experiencing the absolute heart and soul of everything KJ has ever worked for. We are a husband and wife team who has taken everything we've had (and all of our sleep) to build a place where people can connect while drinking some dang delicious stuff. We grew this. No frills, no venture capitalists, no investment group, just us and our long list of friends that we are absolutely the most grateful for. </p>
+        </div>
+        <div class="col-md-4">
+          <img class="inlineAlt" src="img/aboutQuad.jpg" alt="photos"/>
+        </div>
+        <div class="col-md-12 signature"><br />
+          <h2>We are Leaven Brewing.</h2>
+          (and we're super excited to meet you)
         </div>
       </div>
+    </div>
   </section>
 
   <!--  Brewery Section-->
@@ -192,23 +193,23 @@ _    ____ ____ _  _ ____ _  _    ___  ____ ____ _ _ _ _ _  _ ____
         <div class="col-md-12">
           <h2 class="section-title">Brewery</h2>
           <div class="section-title-divider"></div>
-			<h3>Here's where we make the beer!  Come on in and try a sip!</h3>
-		 </div>
-		<div class="col-md-8">
-		  <p class="about-text">Meet <span class="brewface">Brewhouse Mc Brewface</span>, a big hunk of 304 stainless steel construction with glass manways, American made Baldor SS washdown pumps, and an available production of 5bbls. He likes long rinse cycles of brewer's no. 5 and can't resist a good caustic cycle. Most brewhouses his size don't come with automatic rakes and plows, but Brewhouse McBrewface does.</p>
-		</div>
-		 <div class="col-md-4">
-			<img src="img/brew.jpg" class="inlineAlt" alt="Brewhouse McBrewface" />
-		</div>
-		<div class="col-md-5">
-			<iframe class="gMaps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4988.62079217155!2d-82.31784807280489!3d27.856288575925834!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88007e466424b17d!2sLeaven+Brewing+Co.!5e0!3m2!1sen!2sus!4v1515555022902" style="border:0" allowfullscreen></iframe>
-		</div>
-		<div class="col-md-7">
-		  <p class="about-text call-out">So come on in and join us for a pint!  You can find us right in the heart of Riverview at:</p>
-		  <p class="about-text call-out big-address"><i class="fa fa-map-marker"></i>11238 Boyette Rd, Riverview, FL 33569</p>
-		 </div>
+          <h3>Here's where we make the beer!  Come on in and try a sip!</h3>
+        </div>
+        <div class="col-md-8">
+          <p class="about-text">Meet <span class="brewface">Brewhouse Mc Brewface</span>, a big hunk of 304 stainless steel construction with glass manways, American made Baldor SS washdown pumps, and an available production of 5bbls. He likes long rinse cycles of brewer's no. 5 and can't resist a good caustic cycle. Most brewhouses his size don't come with automatic rakes and plows, but Brewhouse McBrewface does.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="img/brew.jpg" class="inlineAlt" alt="Brewhouse McBrewface" />
+        </div>
+        <div class="col-md-5">
+          <iframe class="gMaps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4988.62079217155!2d-82.31784807280489!3d27.856288575925834!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88007e466424b17d!2sLeaven+Brewing+Co.!5e0!3m2!1sen!2sus!4v1515555022902" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-7">
+          <p class="about-text call-out">So come on in and join us for a pint!  You can find us right in the heart of Riverview at:</p>
+          <p class="about-text call-out big-address"><i class="fa fa-map-marker"></i>11238 Boyette Rd, Riverview, FL 33569</p>
+        </div>
       </div>
-	</div>
+    </div>
   </section>
 
   <!--  Our Beer-->
@@ -218,39 +219,39 @@ _    ____ ____ _  _ ____ _  _    ___  ____ ____ _ _ _ _ _  _ ____
         <div class="col-md-12">
           <h2 class="section-title">Our Beer</h2>
           <div class="section-title-divider"></div>
-		<h3 class="about-title">We make beer we like to drink, but don't worry... We'll make beer you like to drink too.</h3>
-		<p class="about-text">We make beer we like to drink, but don't worry...  We'll make beer you like to drink too. We always thought it was a fun process brewing new beers, trading different styles in and out to create a set of flagships. The goal here at Leaven is to become a neighborhood brewery with a hyper-local mindset. At this time we have no intention of distribution (KJ did enough of that at previous locations.) We're here to make beer for you, Riverview! Join us at the bar, tell us the styles you like. Let's start a great conversation about beer and figure out our core beers <strong>together</strong>. </p>
-		<p class="about-text">We aim to have 5 flagships which will be on at all times, and 5 rotational beers that will lend themselves to a more seasonal flair.</p>
+          <h3 class="about-title">We make beer we like to drink, but don't worry... We'll make beer you like to drink too.</h3>
+          <p class="about-text">We make beer we like to drink, but don't worry...  We'll make beer you like to drink too. We always thought it was a fun process brewing new beers, trading different styles in and out to create a set of flagships. The goal here at Leaven is to become a neighborhood brewery with a hyper-local mindset. At this time we have no intention of distribution (KJ did enough of that at previous locations.) We're here to make beer for you, Riverview! Join us at the bar, tell us the styles you like. Let's start a great conversation about beer and figure out our core beers <strong>together</strong>.</p>
+          <p class="about-text">We aim to have 5 flagships which will be on at all times, and 5 rotational beers that will lend themselves to a more seasonal flair.</p>
 
-        <h4>What's on Tap?</h4>
-		<!-- let's render some beers -->
-		<?php
-			// DB connection
-			require 'cms/beersDB.php';
-			// Get the current list
-			//$sql = 'SELECT image, name, abv, description FROM beers';
-			$sql = 'SELECT * FROM beers';
-			$dbOutput = $conn->query($sql);
-			if ($dbOutput -> num_rows > 0) {
-				while($row = $dbOutput ->fetch_assoc()) {
-					$dbImage = $row["image"];
-					$dbName = $row["name"];
-					$dbAbv = $row["abv"];
-					$dbDesc = $row["description"];
-					echo "<div class=\"row\">";
-					echo"<div class=\"col-md-12 beerList\">";
-					echo "<img src=\"img/beers$dbImage.png\" alt=\"glass\"/>";
-					echo "<h3 class=\"beerTitle\">$dbName</h3>";
-					echo "<h5>$dbAbv</h5>";
-					echo "<p class=\"beerDescription\">$dbDesc</p>";
-					echo "</div>";
-					echo "</div>";
-				}
-			}
-		?>
-		</div>
-		</div>
-	</div>
+          <h4>What's on Tap?</h4>
+          <!-- let's render some beers -->
+          <?php
+            // DB connection
+            require 'cms/beersDB.php';
+            // Get the current list
+            //$sql = 'SELECT image, name, abv, description FROM beers';
+            $sql = 'SELECT * FROM beers WHERE active=1';
+            $dbOutput = $conn->query($sql);
+            if ($dbOutput -> num_rows > 0) {
+              while($row = $dbOutput ->fetch_assoc()) {
+                $dbImage = $row["image"];
+                $dbName = $row["name"];
+                $dbAbv = $row["abv"];
+                $dbDesc = $row["description"];
+                echo "<div class=\"row\">";
+                echo"<div class=\"col-md-12 beerList\">";
+                echo "<img src=\"img/beers$dbImage.png\" alt=\"glass\"/>";
+                echo "<h3 class=\"beerTitle\">$dbName</h3>";
+                echo "<h5>$dbAbv</h5>";
+                echo "<p class=\"beerDescription\">$dbDesc</p>";
+                echo "</div>";
+                echo "</div>";
+              }
+            }
+          ?>
+        </div>
+      </div>
+    </div>
   </section>
 
  <!--  Events Section-->

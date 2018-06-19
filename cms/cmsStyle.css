@@ -1,102 +1,111 @@
 /* Style for the CMS pages */
 .warning {
-	font-size: 2em;
-	text-align:center;
-	margin-top: 10%;
+  font-size: 2em;
+  text-align:center;
+  margin-top: 10%;
+}
+.howto {
+  margin: 10px;
+  font-size: 1.3em;
 }
 .beerDescription {
-	margin-bottom: 10px;
-}
+  margin: 0;
+  }
 h1 {
-	margin:12px;
-	font-weight:bold;
+  margin:12px;
+  font-weight:bold;
 }
 h2,h3,h4,h5,p {
-	margin:0px;
+  margin:0px;
 }
 p {
-	font-size: 1.1em;
+  font-size: 1.1em;
 }
 body {
-	font-family: "Open Sans", sans-serif;
-	font-size: 1.2em;
-	background-color: #374049;
-	color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  background-color: #374049;
+  color: #fff;
 }
 input, select, textarea {
-	font-size: 1.3em;
-	color:#000;
+  font-size: 1.3em;
+  color:#000;
+}
+.btn {
+  color:black;
 }
 .important {
-	font-weight: bold;
-	color: yellow;
+  font-weight: bold;
+  color: yellow;
 }
 th, td {
-	padding: 15px;
-	text-align: left;
+  padding: 15px;
+  text-align: left;
 }
 th {
-	font-size: 1.3em;
+  font-size: 1.3em;
 }
 .btn-danger {
-	font-size: 1.5em;
-	color:#000;
+  font-size: 1.5em;
+  color:#000;
+  margin-top: 10px;
 }
 .btn-addBeer {
-	width:150px;
-	height: 40px;
+  width:150px;
+  height: 40px;
 }
-.currentBeerList:hover {
-	background-color: #330099;
+.beerList img {
+  float:left;
+  margin:10px;
 }
-.btn-info {
-	width:250px;
+.beerSectionHeader {
+  margin-bottom:24px;
 }
 .modal-body {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .modal-body > .add-section {
-	margin: 5px;
-	font-size: 1.3em;
+  margin: 5px;
+  font-size: 1.3em;
 }
 .modalH {
-	color:#000;
-	font-weight:bold;
+  color:#000;
+  font-weight:bold;
 }
 .modal-content {
-	color:#000;
+  color:#000;
 }
 .modal-dialog {
-	width: 666px;
+  width: 666px;
 }
 .modal-body {
-	padding: 0 15px;
+  padding: 0 15px;
 }
 .flex-it {
-	display: flex;
+  display: flex;
   justify-content: space-around;
 }
 .flex-it img {
-	height: 80px;
+  height: 80px;
 }
 .flex-section {
-	margin: 10px;
-	font-size: 1.5em;
-	padding: 5px;
-	cursor: pointer;
-	text-align: center;
+  margin: 10px;
+  font-size: 1.5em;
+  padding: 5px;
+  cursor: pointer;
+  text-align: center;
 }
 .add-header {
-	font-size: 1.3em;
-	font-weight: bold;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 .addDetail {
-	font-size: .5em;
+  font-size: .5em;
 }
 #AddImageDiv img {
-	height: 70px;
+  height: 70px;
 }
 .flex-section:hover {
-	background-color: #5bc0de;
+  background-color: #5bc0de;
 }
