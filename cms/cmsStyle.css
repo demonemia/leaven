@@ -106,6 +106,12 @@ th {
 #AddImageDiv img {
   height: 70px;
 }
+#ActiveRadios {
+  float:left;
+  margin-left: 45%;
+  text-align: left;
+  font-size: 1.2em;
+}
 .flex-section:hover {
   background-color: #5bc0de;
 }

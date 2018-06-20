@@ -34,6 +34,8 @@
       $name = null;
       $abv = null;
       $description = null;
+      $active = null;
+      $setActive = true;
       if ($passValid) {
         require 'beersDB.php';
         if (isset($_POST["newBeerImage"]) && isset($_POST["newBeerName"]) && isset($_POST["newBeerAbv"]) && isset($_POST["newBeerDescription"])) {
@@ -41,6 +43,10 @@
           $name = htmlentities($_POST["newBeerName"]);
           $abv = htmlentities($_POST["newBeerAbv"]);
           $description = htmlentities($_POST["newBeerDescription"]);
+          $active = htmlentities($_POST["activeChoice"]);
+          if ($active == "inactive") {
+            $setActive = false;
+          }          
         }
         //##############
         // DEACTIVATE beer
@@ -87,11 +93,12 @@
         //##############
         // ADD a new beer
         if ($image!='' && $name!='' && $abv!='' && $description!='') {
-          $stmt = $conn->prepare("INSERT INTO beers (image, name, abv, description) VALUES (?, ?, ?, ?)");
-          $stmt->bind_param("ssss", $image, $name, $abv, $description);
-          $sql = 'INSERT INTO beers (image,name,abv,description) VALUES ("'.$image.'","'.$name.'","'.$abv.'","'. $description.'")';
+          $stmt = $conn->prepare("INSERT INTO beers (image, name, abv, description, active) VALUES (?, ?, ?, ?, ?)");
+          $stmt->bind_param("sssss", $image, $name, $abv, $description, $setActive);
+          $sql = 'INSERT INTO beers (image,name,abv,description,active) VALUES ("'.$image.'","'.$name.'","'.$abv.'","'. $description.'","'. $setActive.'")';
           if ($conn->query($sql) === TRUE) {
             echo "New beer created successfully";
+            echo "<h1>".$setActive."</h1>";
           } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
           }
@@ -251,6 +258,10 @@
         </div>
       </div>
       <div class="modal-footer">
+        <div id="ActiveRadios">
+          <input type="radio" name="activeChoice" id="activeButton" value="active" checked> <label for="activeButton">Active</label><br/>
+          <input type="radio" id="inactiveButton" name="activeChoice" value="inactive"> <label for="inactiveButton">Inactive</label>
+        </div>
         <input type="submit" value="ADD this Beer" class="btn btn-info btn-lg" /> 
         <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
       </div>
