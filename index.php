@@ -55,7 +55,7 @@
 
   <?php
     // Random bg image for hero
-    $heroNumber = rand(1,9);
+    $heroNumber = rand(1,10);
     echo '<style>#hero { background: url(img/hero-bg'.$heroNumber.'.jpg) top center fixed;}</style>';
   ?>
 </head>
