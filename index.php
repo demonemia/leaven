@@ -154,7 +154,15 @@ _    ____ ____ _  _ ____ _  _    ___  ____ ____ _ _ _ _ _  _ ____
     </div>
   </header>
   <!-- #header -->
-
+  
+  <!-- eggs -->
+  <!--<img src="img/hop2.png" id="Hop"/>-->
+  <img src="img/bird.png" id="Bird1"/>
+  <img src="img/bird.png" id="Bird2"/>
+  <img src="img/bird.png" id="Bird3"/>
+  <img src="img/bird.png" id="Bird4"/>
+  <img src="img/bird.png" id="Bird5"/>
+  
   <!--  About Us-->
   <section id="about">
     <div class="container">
@@ -163,7 +171,7 @@ _    ____ ____ _  _ ____ _  _    ___  ____ ____ _ _ _ _ _  _ ____
           <h2 class="section-title">Who is Leaven Brewing?</h2>
           <div class="section-title-divider"></div>
           <!--<p class="section-description"></p>-->
-          <h3>We are KJ and Jillian and we make beer!</h3>
+          <h3>We are <span id="KJ">KJ</span> and <span id="Jillian">Jillian</span> and we make beer!</h3>
           <div id="LeavenVideo">
             <iframe width="350" src="https://www.youtube.com/embed/Ao3Nl5mHc0k?rel=0&amp;showinfo=0" allowfullscreen></iframe>
           </div>
@@ -340,6 +348,21 @@ _    ____ ____ _  _ ____ _  _    ___  ____ ____ _ _ _ _ _  _ ____
   <script src="lib/easing/easing.js"></script>
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
+  <script>
+    // 458 x 415 - 50 x 45
+    $("#Jillian").click(function(){
+      for(i=1; i<5; i++) {
+        strID = "#Bird"+i;
+        $(strID).width("80px");
+        $(strID).height("85px");
+        $(strID).animate({right:'1000px',height:'+=400px',width:'+=400px'},'slow');
+        $(strID).fadeOut();
+      }
+      // reset the trigger word
+      $("#Jillian").css("color","#666666");
+      $("#Jillian").css("cursor","auto");
+    });
+  </script>
 
 </body>
 

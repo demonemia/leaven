@@ -780,3 +780,33 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+/*==================
+Egg time!
+===================*/
+#Jillian:hover {
+  color: darkred;
+  cursor: pointer;
+}
+#Hop {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  width: 150px;
+}
+#Bird1, #Bird2, #Bird3, #Bird4, #Bird5 {
+  position:absolute;
+  display: none;
+  z-index: 999;
+}
+#Bird1{
+  left:50px;
+}
+#Bird2 {
+  left:400px;
+}
+#Bird3 {
+  left:800px;
+}
+#Bird4 {
+  left:1100px;
+}

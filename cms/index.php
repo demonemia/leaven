@@ -14,20 +14,20 @@
   </head>
   <body>
     <?php
-      require 'pass.php';
-      if (!$passValid) {
-      ?>
-        <div class="warning">
-          <img src="../img/instaLogo.gif">
-          <h1>Welcome!</h1>
-          <p>You must enter the password to continue.</p>
-          <form method="post" action="index.php">
-            <input type="password" name="password" size="8"> <input type="submit" name="submit" value="Submit">
-          </form>
-        </div>
+    require 'pass.php';
+    if (!$passValid) {
+    ?>
+      <div class="warning">
+        <img src="../img/instaLogo.gif">
+        <h1>Welcome!</h1>
+        <p>You must enter the password to continue.</p>
+        <form method="post" action="index.php">
+          <input type="password" name="password" size="8"> <input type="submit" name="submit" value="Submit">
+        </form>
+      </div>
 
-      <?php
-      }
+    <?php
+    }
 
       // Check and process the form
       $image = null;
