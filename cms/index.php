@@ -242,6 +242,9 @@
           <img name="Stange" class="addImage" src="../img/beersStange.png"><br/>Stange
         </div>
         <div class="flex-section">
+          <img name="StangeLight" class="addImage" src="../img/beersStangeLight.png"><br/>Stange Light
+        </div>
+        <div class="flex-section">
           <img name="Goblet" class="addImage" src="../img/beersGoblet.png"><br/>Goblet
         </div>
         <div class="flex-section">
