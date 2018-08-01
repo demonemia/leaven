@@ -239,6 +239,9 @@
           <img name="Pint" class="addImage" src="../img/beersPint.png"><br/>Pint
         </div>
         <div class="flex-section">
+          <img name="PintDark" class="addImage" src="../img/beersPintDark.png"><br/>Pint Dark
+        </div>
+        <div class="flex-section">
           <img name="Stange" class="addImage" src="../img/beersStange.png"><br/>Stange
         </div>
         <div class="flex-section">
