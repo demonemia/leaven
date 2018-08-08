@@ -353,6 +353,7 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
   <script src="contactform/contactform.js"></script>
   <script>
     // 458 x 415 - 50 x 45
+    bFirst = true;
     $("#Jillian").click(function(){
       for(i=1; i<5; i++) {
         strID = "#Bird"+i;
@@ -361,7 +362,8 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
         $(strID).animate({right:'1000px',height:'+=400px',width:'+=400px'},'slow');
         $(strID).fadeOut();
       }
-      // reset the trigger word
+      if (bFirst) {setTimeout(function(){ alert("You found Egg 1! For Egg 2, you must view within."); bFirst=false; }, 1000);}
+      // reset the trigger word, this only works once!
       $("#Jillian").css("color","#666666");
       $("#Jillian").css("cursor","auto");
     });
