@@ -213,7 +213,7 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
         <div class="col-md-8">
           <p class="about-text">Meet <span class="brewface">Brewhouse Mc Brewface</span>, a big hunk of 304 stainless steel construction with glass manways, American made Baldor SS washdown pumps, and an available production of 5bbls. He likes long rinse cycles of brewer's no. 5 and can't resist a good caustic cycle. Most brewhouses his size don't come with automatic rakes and plows, but <span href="#" id="Egg3">Brewhouse McBrewface</span> does.</p>
           <div id="ThisIsIt">
-            <h1>You've solved the puzzle!</h1>
+            <h1>You've solved it!</h1>
             <p>Go to our <a href="https://www.facebook.com/leavenbrewing/">Facebook page</a> and reply with the code:<br>
             <span class="secrets">"Goats &amp; Cats &amp; Goats &amp; Cats"</span><br>
             to claim your prize!</p>
