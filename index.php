@@ -102,6 +102,10 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
    | | (_) | |_| | |  _| (_) | |_| | | | | (_| | | |__| (_| | (_| |  / __/ 
    |_|\___/ \__,_| |_|  \___/ \__,_|_| |_|\__,_| |_____\__, |\__, | |_____|
                                                        |___/ |___/         
+#  The answer is CLOSE, and so is your fame.
+#  Brewhouse McBrewface is calling your name.
+#  Scroll down the page, touch him and see,
+#  What the final clue is to be.
 -->
 
 <body>
@@ -117,7 +121,7 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
 
   <div id="preloader"></div>
 
-  <!--  Hero Section-->
+  <!-- Hero Section -->
   <section id="hero">
     <div class="hero-container">
       <div class="wow fadeIn">
@@ -132,7 +136,7 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
     </div>
   </section>
 
-  <!--  Header Section-->
+  <!-- Header Section -->
   <header id="header">
     <div class="container">
 
@@ -166,7 +170,7 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
   <img src="img/bird.png" id="Bird4"/>
   <img src="img/bird.png" id="Bird5"/>
   
-  <!--  About Us-->
+  <!-- About Us-->
   <section id="about">
     <div class="container">
       <div class="row">
@@ -197,7 +201,7 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
     </div>
   </section>
 
-  <!--  Brewery Section-->
+  <!-- Brewery Section-->
   <section id="brewery">
     <div class="container">
       <div class="row">
@@ -207,7 +211,13 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
           <h3>Here's where we make the beer!  Come on in and try a sip!</h3>
         </div>
         <div class="col-md-8">
-          <p class="about-text">Meet <span class="brewface">Brewhouse Mc Brewface</span>, a big hunk of 304 stainless steel construction with glass manways, American made Baldor SS washdown pumps, and an available production of 5bbls. He likes long rinse cycles of brewer's no. 5 and can't resist a good caustic cycle. Most brewhouses his size don't come with automatic rakes and plows, but Brewhouse McBrewface does.</p>
+          <p class="about-text">Meet <span class="brewface">Brewhouse Mc Brewface</span>, a big hunk of 304 stainless steel construction with glass manways, American made Baldor SS washdown pumps, and an available production of 5bbls. He likes long rinse cycles of brewer's no. 5 and can't resist a good caustic cycle. Most brewhouses his size don't come with automatic rakes and plows, but <span href="#" id="Egg3">Brewhouse McBrewface</span> does.</p>
+          <div id="ThisIsIt">
+            <h1>You've solved the puzzle!</h1>
+            <p>Go to our <a href="https://www.facebook.com/leavenbrewing/">Facebook page</a> and reply with the code:<br>
+            <span class="secrets">"Goats &amp; Cats &amp; Goats &amp; Cats"</span><br>
+            to claim your prize!</p>
+          </div>
         </div>
         <div class="col-md-4">
           <img src="img/brew.jpg" class="inlineAlt" alt="Brewhouse McBrewface" />
@@ -271,7 +281,7 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
 		<div class="row">
 			<div class="col-md-12">
 				<h2 class="section-title">Events</h2>
-				<p class="about-text">Those gosh darn kids and their social media... Always uploading things on the inter webs, and book of faces. We have a lot going on here at Leaven Brewing, we’ll keep you informed on our Facebook and Instagram. Food trucks? We got those. Music? We got that too! Events? Those happen!</p>
+              <p class="about-text">Those <a href="asdf">gosh darn kids</a> and their social media... Always uploading things on the inter webs, and book of faces. We have a lot going on here at Leaven Brewing, we’ll keep you informed on our Facebook and Instagram. Food trucks? We got those. Music? We got that too! Events? Those happen!</p>
 			</div>
 		</div>
 		<!-- FB events -->
@@ -362,10 +372,13 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
         $(strID).animate({right:'1000px',height:'+=400px',width:'+=400px'},'slow');
         $(strID).fadeOut();
       }
-      if (bFirst) {setTimeout(function(){ alert("You found Egg 1! For Egg 2, you must view within."); bFirst=false; }, 1000);}
+      if (bFirst) {setTimeout(function(){ alert("You found Egg 1! For Egg 2, you must act Right, and View within."); bFirst=false; }, 1000);}
       // reset the trigger word, this only works once!
-      $("#Jillian").css("color","#666666");
+      $("#Jillian").css("color","#666");
       $("#Jillian").css("cursor","auto");
+    });
+    $("#Egg3").click(function(){
+      $("#ThisIsIt").css("display","block");
     });
   </script>
 
