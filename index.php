@@ -275,38 +275,38 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
     </div>
   </section>
 
- <!--  Events Section-->
+<!--  Events Section-->
 <section id="events">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="section-title">Events</h2>
-              <p class="about-text">Those <a href="asdf">gosh darn kids</a> and their social media... Always uploading things on the inter webs, and book of faces. We have a lot going on here at Leaven Brewing, we’ll keep you informed on our Facebook and Instagram. Food trucks? We got those. Music? We got that too! Events? Those happen!</p>
-			</div>
-		</div>
-		<!-- FB events -->
-		<div class="row">
-			<div class="col-md-4">
-				<div class="fb-page" data-href="https://www.facebook.com/leavenbrewing/" data-tabs="events" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/leavenbrewing/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/leavenbrewing/">Leaven Brewing Company</a></blockquote></div>
-			</div>
-			<div class="col-md-8">
-				<!-- instagram feed -->
-				<h3>Follow <strong>@LeavenBrewing</strong> on Instagram</h3>
-				<script>
-					var userFeed = new Instafeed({
-						get: 'user',
-						userId: '3538884865',
-						accessToken: '3538884865.04a6d0c.ec0589bf210e4ff6afcc326e268e23b2',
-						template: '<a href="{{link}}"><img class="instaFeed" src="{{image}}" /></a>',
-						limit: '12'
-					});
-					userFeed.run();
-				</script>
-				<!--Stick it in!-->
-				<div id="instafeed"></div>
-			</div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="section-title">Events</h2>
+          <p class="about-text">Those <a href="404.php">gosh darn kids</a> and their social media... Always uploading things on the inter webs, and book of faces. We have a lot going on here at Leaven Brewing, we’ll keep you informed on our Facebook and Instagram. Food trucks? We got those. Music? We got that too! Events? Those happen!</p>
+        </div>
+    </div>
+    <!-- FB events -->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="fb-page" data-href="https://www.facebook.com/leavenbrewing/" data-tabs="events" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/leavenbrewing/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/leavenbrewing/">Leaven Brewing Company</a></blockquote></div>
+      </div>
+      <div class="col-md-8">
+        <!-- instagram feed -->
+        <h3>Follow <strong>@LeavenBrewing</strong> on Instagram</h3>
+        <script>
+          var userFeed = new Instafeed({
+            get: 'user',
+            userId: '3538884865',
+            accessToken: '3538884865.04a6d0c.ec0589bf210e4ff6afcc326e268e23b2',
+            template: '<a href="{{link}}"><img class="instaFeed" src="{{image}}" /></a>',
+            limit: '12'
+          });
+          userFeed.run();
+        </script>
+        <!--Stick it in!-->
+        <div id="instafeed"></div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!--

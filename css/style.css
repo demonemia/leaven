@@ -832,6 +832,13 @@ Egg time!
 #OhNoes {
   padding-top: 10px;
 }
+blockquote {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: darkslateblue;
+  margin: 25px;
+  font-style: italic;
+}
 .fired {
   color: red;
   font-weight: bold;
@@ -844,10 +851,10 @@ Egg time!
 }
 .fireHim {
   opacity: 0.5;
+  padding: 0 50px;
 }
 #FireThem {
   display: flex;
-  justify-content: space-evenly;
 }
 .fireChoice {
   color: red;
@@ -856,4 +863,19 @@ Egg time!
   margin-top: 40px;
   text-shadow: 1px 1px black;
   visibility: hidden;
+}
+@media (max-width: 1024px) {
+  #FireThem {
+    display: block;
+  }
+  .fireChoice {
+    display: none;
+  }
+  .fireHim {
+    padding: 5px;
+    opacity: 1;
+  }
+  .imgFloater {
+    display: none;
+  }
 }

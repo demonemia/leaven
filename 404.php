@@ -48,13 +48,12 @@
       <div class="row">
         <div class="col-md-10">
           <h3>What did you do?!</h3>
-          <p class="about-text">Well, you broke it.  This is why we don't have nice things... Like beer.  OK beer is nice.  In fact, it's delicious!<br>
-            OK, we have some nice things, but you still manged to break something.</p>
-          <p class="about-text">This kind of technical failure can't go unanswered.  And that means...</p>
+          <p class="about-text">Well, you broke it.  This is why we don't have nice things... Like beer.  OK beer is nice.  In fact, it's delicious! Well, OK. We have some nice things, but you still manged to break <strong>something</strong>.</p>
+          <blockquote>This kind of technical failure can't go unanswered.  And that means...</blockquote>
           <h3>One of our geeks is getting <span class="fired">FIRED</span>... And <span class="you">you</span> get to choose who gets the ax!</h3>
         </div>
         <div class="col-md-2">
-          <img src="img/bigPint.png">
+          <img src="img/bigPint.png" class="imgFloater">
         </div>
       </div>
       <div class="row">
