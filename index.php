@@ -1,6 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<!--
+MMMMMNys+::::+++oyddyyyy+yyNMMMMMMMMMMMMMMMMMMMMMM
+NNNNdhhhhhhhhhhhhhhhhhhhhhhhdNNNNNNNNNNNNNNNNNNNMM
+NmmddddddddddddddddddddddddddddddddddddddddddmmNMM
+Nmms::::::::::::::::::::::::::::::::::::::::ommhdM
+Nmms::::hmo::::::::::::::::::::/hdhhhys/::::+mmhNM
+dmms:::/dms:::::::::::://::::::+mmh++ymh::::ommhNM
+Nmms::::hms:::::::::::+mms:::::/mmmyydms::::ommhoM
+Nmms:::/mms::::::::::+dmmmd/::::dmh+osmm+:::ommh:N
+Nmms::::dmy::::::::::hmmymmh::::dms:::hm+:::ommy:N
+Nmms::::hmmdddh/::::omd+:omms:::hmdhhdmy::::ommd:h
+Nmms::::://////:::::hmy:::sms:::/+/++//:::::ommy:d
+Nmmo::::::o+/:::::::hmy:::yms::::::://::::::ommh:d
+Nmmo::::::hmmdhhyso+smm+:ommhsyyhhhdms::::::ommh:y
+Nmmo::::::/dmy+syydmmmmdymmmmhyyo+dmy:::::::ommy::
+Nmmo:::::::/hmo::::/ohmmmmh+:::::hmy::::::::hmmy:/
+Nmmo:::::yyo+dmy/:::::ymmo:::::/hmy+oyo:::::hmm+:m
+Nmmo:::::hmmmmmmdo::::/mmo:::/smmmmmmms:::::hmmo:N
+mmmo:::::+mmmhdmmmds/:/mmy/+ymmmmhhmmd/:::::hmmo:N
+Nmmo::::::ymm+:/sdmmmdmmmmmmmmho/:ymmo::::::hmm+:N
+Nmms:::::::smd+:::+sdmmmmmmho/:::smd+:::::::hmm+:N
+Nmmh::::::::odms:::::+hmmd/::::/hmh/::::::::hmm+:s
+Mmmd:::::smdyymmdo::::+mms:::/ymmmshdm+:::::hmm+::
+Mmmd:::::+mmdhdmmmmy/+hmmh/+hmmmmdhdmd/:::::hmm+::
+Mmmd::::::hmh/:/oymmmmmmmmmmmds+/:/mms:::::+dmm+::
+Mmmmy+::::/dms::::/oymmmmmds+:::::dmh::::/ymmmy/::
+Mmdmmmdy/::/hmy+:::::/hmmd/:::::+dms:::+hmmmh+:::h
+MMMmddmmmh+::sdmy+::::ymmy:::/ohmh+::+ymmmy+::::sM
+MMMMMMmhmmmh+:/sdmdyosmmmmyshmmho::ohmmmh/::::/dMM
+MMMMMMMMNdmmmh+::/syhmmmmmdyyo:::+dmmds/:::/ohNMMM
+MMMMMMMMMMmmmmmh+:::::ymmm/::::+hmmms/:::+dMMMMMMM
+MMMMMMMMMMMMNNmmmmyo::ymmm/:/sdmmms/::/sdMMMMMMMMM
+MMMMMMMMMMMMMMMNmmmmdoymmmohmmmho/:+dNMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMmNmmmmmmmmmmy+:::hMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMNmmmmmmy/::/sdMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
+ __   __             __                       _   _____              ____  
+ \ \ / ___  _   _   / _| ___  _   _ _ __   __| | | ____|__ _  __ _  |___ \ 
+  \ V / _ \| | | | | |_ / _ \| | | | '_ \ / _` | |  _| / _` |/ _` |   __) |
+   | | (_) | |_| | |  _| (_) | |_| | | | | (_| | | |__| (_| | (_| |  / __/ 
+   |_|\___/ \__,_| |_|  \___/ \__,_|_| |_|\__,_| |_____\__, |\__, | |_____|
+                                                       |___/ |___/         
+#  The answer is CLOSE, and so is your fame.
+#  Brewhouse McBrewface is calling your name.
+#  Scroll down the page, touch him and see,
+#  What the final clue is to be.
+-->
+  <head>
   <!-- Site by Frank - www.KeyboardDevil.com -->
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -59,54 +106,6 @@
     echo '<style>#hero { background: url(img/hero-bg'.$heroNumber.'.jpg) top center fixed;}</style>';
   ?>
 </head>
-  
-<!--
-MMMMMNys+::::+++oyddyyyy+yyNMMMMMMMMMMMMMMMMMMMMMM
-NNNNdhhhhhhhhhhhhhhhhhhhhhhhdNNNNNNNNNNNNNNNNNNNMM
-NmmddddddddddddddddddddddddddddddddddddddddddmmNMM
-Nmms::::::::::::::::::::::::::::::::::::::::ommhdM
-Nmms::::hmo::::::::::::::::::::/hdhhhys/::::+mmhNM
-dmms:::/dms:::::::::::://::::::+mmh++ymh::::ommhNM
-Nmms::::hms:::::::::::+mms:::::/mmmyydms::::ommhoM
-Nmms:::/mms::::::::::+dmmmd/::::dmh+osmm+:::ommh:N
-Nmms::::dmy::::::::::hmmymmh::::dms:::hm+:::ommy:N
-Nmms::::hmmdddh/::::omd+:omms:::hmdhhdmy::::ommd:h
-Nmms::::://////:::::hmy:::sms:::/+/++//:::::ommy:d
-Nmmo::::::o+/:::::::hmy:::yms::::::://::::::ommh:d
-Nmmo::::::hmmdhhyso+smm+:ommhsyyhhhdms::::::ommh:y
-Nmmo::::::/dmy+syydmmmmdymmmmhyyo+dmy:::::::ommy::
-Nmmo:::::::/hmo::::/ohmmmmh+:::::hmy::::::::hmmy:/
-Nmmo:::::yyo+dmy/:::::ymmo:::::/hmy+oyo:::::hmm+:m
-Nmmo:::::hmmmmmmdo::::/mmo:::/smmmmmmms:::::hmmo:N
-mmmo:::::+mmmhdmmmds/:/mmy/+ymmmmhhmmd/:::::hmmo:N
-Nmmo::::::ymm+:/sdmmmdmmmmmmmmho/:ymmo::::::hmm+:N
-Nmms:::::::smd+:::+sdmmmmmmho/:::smd+:::::::hmm+:N
-Nmmh::::::::odms:::::+hmmd/::::/hmh/::::::::hmm+:s
-Mmmd:::::smdyymmdo::::+mms:::/ymmmshdm+:::::hmm+::
-Mmmd:::::+mmdhdmmmmy/+hmmh/+hmmmmdhdmd/:::::hmm+::
-Mmmd::::::hmh/:/oymmmmmmmmmmmds+/:/mms:::::+dmm+::
-Mmmmy+::::/dms::::/oymmmmmds+:::::dmh::::/ymmmy/::
-Mmdmmmdy/::/hmy+:::::/hmmd/:::::+dms:::+hmmmh+:::h
-MMMmddmmmh+::sdmy+::::ymmy:::/ohmh+::+ymmmy+::::sM
-MMMMMMmhmmmh+:/sdmdyosmmmmyshmmho::ohmmmh/::::/dMM
-MMMMMMMMNdmmmh+::/syhmmmmmdyyo:::+dmmds/:::/ohNMMM
-MMMMMMMMMMmmmmmh+:::::ymmm/::::+hmmms/:::+dMMMMMMM
-MMMMMMMMMMMMNNmmmmyo::ymmm/:/sdmmms/::/sdMMMMMMMMM
-MMMMMMMMMMMMMMMNmmmmdoymmmohmmmho/:+dNMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMmNmmmmmmmmmmy+:::hMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMNmmmmmmy/::/sdMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
- __   __             __                       _   _____              ____  
- \ \ / ___  _   _   / _| ___  _   _ _ __   __| | | ____|__ _  __ _  |___ \ 
-  \ V / _ \| | | | | |_ / _ \| | | | '_ \ / _` | |  _| / _` |/ _` |   __) |
-   | | (_) | |_| | |  _| (_) | |_| | | | | (_| | | |__| (_| | (_| |  / __/ 
-   |_|\___/ \__,_| |_|  \___/ \__,_|_| |_|\__,_| |_____\__, |\__, | |_____|
-                                                       |___/ |___/         
-#  The answer is CLOSE, and so is your fame.
-#  Brewhouse McBrewface is calling your name.
-#  Scroll down the page, touch him and see,
-#  What the final clue is to be.
--->
 
 <body>
 
