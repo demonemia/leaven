@@ -375,9 +375,10 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
       // reset the trigger word, this only works once!
       $("#Jillian").css("color","#666");
       $("#Jillian").css("cursor","auto");
-    });
-    $("#Egg3").click(function(){
-      $("#ThisIsIt").css("display","block");
+      // Set egg 3
+      $("#Egg3").click(function(){
+        $("#ThisIsIt").css("display","block");
+      });
     });
   </script>
 
