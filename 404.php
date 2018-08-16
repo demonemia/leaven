@@ -53,7 +53,7 @@
           <h3>One of our geeks is getting <span class="fired">FIRED</span>... And <span class="you">you</span> get to choose who gets the ax!</h3>
         </div>
         <div class="col-md-2">
-          <img src="img/bigPint.png" class="imgFloater">
+          <img src="img/bigPint.png" alt="Beer Pint" class="imgFloater">
         </div>
       </div>
       <div class="row">
