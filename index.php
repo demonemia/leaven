@@ -163,11 +163,11 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
   
   <!-- eggs -->
   <!--<img src="img/hop2.png" id="Hop"/>-->
-  <img src="img/bird.png" id="Bird1"/>
-  <img src="img/bird.png" id="Bird2"/>
-  <img src="img/bird.png" id="Bird3"/>
-  <img src="img/bird.png" id="Bird4"/>
-  <img src="img/bird.png" id="Bird5"/>
+  <img src="img/bird.png" id="Bird1" alt="bird"/>
+  <img src="img/bird.png" id="Bird2" alt="bird"/>
+  <img src="img/bird.png" id="Bird3" alt="bird"/>
+  <img src="img/bird.png" id="Bird4" alt="bird"/>
+  <img src="img/bird.png" id="Bird5" alt="bird"/>
   
   <!-- About Us-->
   <section id="about">
@@ -210,7 +210,7 @@ MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
           <h3>Here's where we make the beer!  Come on in and try a sip!</h3>
         </div>
         <div class="col-md-8">
-          <p class="about-text">Meet <span class="brewface">Brewhouse Mc Brewface</span>, a big hunk of 304 stainless steel construction with glass manways, American made Baldor SS washdown pumps, and an available production of 5bbls. He likes long rinse cycles of brewer's no. 5 and can't resist a good caustic cycle. Most brewhouses his size don't come with automatic rakes and plows, but <span href="#" id="Egg3">Brewhouse McBrewface</span> does.</p>
+          <p class="about-text">Meet <span class="brewface">Brewhouse Mc Brewface</span>, a big hunk of 304 stainless steel construction with glass manways, American made Baldor SS washdown pumps, and an available production of 5bbls. He likes long rinse cycles of brewer's no. 5 and can't resist a good caustic cycle. Most brewhouses his size don't come with automatic rakes and plows, but <span id="Egg3">Brewhouse McBrewface</span> does.</p>
           <div id="ThisIsIt">
             <h1>You've solved it!</h1>
             <p>Go to our <a href="https://www.facebook.com/leavenbrewing/posts/1719990328110567">Facebook page</a> and reply with the code:<br>
