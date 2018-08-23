@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="brewery, leaven brewing, riverview brewery, florida brewery" name="keywords">
+  <meta content="Leaven Brewing - Transforming Grain for the Better" name="description">
   <!-- Site by Frank - www.KeyboardDevil.com -->
   <!--
   MMMMMNys+::::+++oyddyyyy+yyNMMMMMMMMMMMMMMMMMMMMMM
@@ -39,20 +42,7 @@
   MMMMMMMMMMMMMMMMMmNmmmmmmmmmmy+:::hMMMMMMMMMMMMMMM
   MMMMMMMMMMMMMMMMMMMMNmmmmmmy/::/sdMMMMMMMMMMMMMMMM
   MMMMMMMMMMMMMMMMMMMMMMNNmNdddddNMMMMMMMMMMMMMMMMMM
-   __   __             __                       _   _____              ____  
-   \ \ / ___  _   _   / _| ___  _   _ _ __   __| | | ____|__ _  __ _  |___ \ 
-    \ V / _ \| | | | | |_ / _ \| | | | '_ \ / _` | |  _| / _` |/ _` |   __) |
-     | | (_) | |_| | |  _| (_) | |_| | | | | (_| | | |__| (_| | (_| |  / __/ 
-     |_|\___/ \__,_| |_|  \___/ \__,_|_| |_|\__,_| |_____\__, |\__, | |_____|
-                                                         |___/ |___/         
-  #  The answer is CLOSE, and so is your fame.
-  #  Brewhouse McBrewface is calling your name.
-  #  Scroll down the page, touch him and see,
-  #  What the final clue is to be.
   -->
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="brewery, leaven brewing, riverview brewery, florida brewery" name="keywords">
-  <meta content="Leaven Brewing - Transforming Grain for the Better" name="description">
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3474776-4"></script>
   <script>
@@ -108,7 +98,6 @@
 </head>
 
 <body>
-
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -138,7 +127,7 @@
   <!-- Header Section -->
   <header id="header">
     <div class="container">
-
+      
       <div id="logo" class="pull-left">
         <a href="#hero"><img src="img/logo.png" alt="Leaven Logo" title="" /></a>
       </div>
@@ -161,8 +150,7 @@
   </header>
   <!-- #header -->
   
-  <!-- eggs -->
-  <!--<img src="img/hop2.png" id="Hop"/>-->
+  <!-- bird egg, get it? #SorryNotSorry -->
   <img src="img/bird.png" id="Bird1" alt="bird"/>
   <img src="img/bird.png" id="Bird2" alt="bird"/>
   <img src="img/bird.png" id="Bird3" alt="bird"/>
@@ -210,13 +198,7 @@
           <h3>Here's where we make the beer!  Come on in and try a sip!</h3>
         </div>
         <div class="col-md-8">
-          <p class="about-text">Meet <span class="brewface">Brewhouse Mc Brewface</span>, a big hunk of 304 stainless steel construction with glass manways, American made Baldor SS washdown pumps, and an available production of 5bbls. He likes long rinse cycles of brewer's no. 5 and can't resist a good caustic cycle. Most brewhouses his size don't come with automatic rakes and plows, but <span id="Egg3">Brewhouse McBrewface</span> does.</p>
-          <div id="ThisIsIt">
-            <h1>You've solved it!</h1>
-            <p>Go to our <a href="https://www.facebook.com/leavenbrewing/posts/1719990328110567">Facebook page</a> and reply with the code:<br>
-            <span class="secrets">"Goats &amp; Cats &amp; Goats &amp; Cats"</span><br>
-            to claim your prize!</p>
-          </div>
+          <p class="about-text">Meet <span class="brewface">Brewhouse Mc Brewface</span>, a big hunk of 304 stainless steel construction with glass manways, American made Baldor SS washdown pumps, and an available production of 5bbls. He likes long rinse cycles of brewer's no. 5 and can't resist a good caustic cycle. Most brewhouses his size don't come with automatic rakes and plows, but Brewhouse McBrewface does.</p>
         </div>
         <div class="col-md-4">
           <img src="img/brew.jpg" class="inlineAlt" alt="Brewhouse McBrewface" />
@@ -371,14 +353,6 @@
         $(strID).animate({right:'1000px',height:'+=400px',width:'+=400px'},'slow');
         $(strID).fadeOut();
       }
-      if (bFirst) {setTimeout(function(){ alert("You found Egg 1! For Egg 2, you must act Right, and View within."); bFirst=false; }, 1000);}
-      // reset the trigger word, this only works once!
-      $("#Jillian").css("color","#666");
-      $("#Jillian").css("cursor","auto");
-      // Set egg 3
-      $("#Egg3").click(function(){
-        $("#ThisIsIt").css("display","block");
-      });
     });
   </script>
 

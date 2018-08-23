@@ -813,20 +813,6 @@ Egg time!
 #Dialog {
   display: none;
 }
-#Egg3 {
-  cursor: cell;
-  color: #666;
-}
-#ThisIsIt {
-  border: 10px solid #f8c219;
-  margin: 20px;
-  padding: 4px;
-  display: none;
-  text-align: center;
-}
-.secrets {
-  font-size: 2em;
-}
 
 /* Error page */
 #OhNoes {
@@ -878,4 +864,7 @@ blockquote {
   .imgFloater {
     display: none;
   }
+}
+#VoteForm {
+  display: inherit;
 }
