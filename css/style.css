@@ -837,7 +837,7 @@ blockquote {
 }
 .fireHim {
   opacity: 0.5;
-  padding: 0 50px;
+  padding: 0 20px;
 }
 #FireThem {
   display: flex;
@@ -865,6 +865,12 @@ blockquote {
     display: none;
   }
 }
+.numVotes {
+  color: black;
+}
 #VoteForm {
   display: inherit;
+}
+.voteCount {
+  font-size: 3em;
 }
