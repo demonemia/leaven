@@ -60,18 +60,18 @@
     "@context": "http://schema.org",
     "@type": "Organization",
     "name": "Leaven Brewing - Transforming Grain for the Better",
-    "url": "http://www.leavenbrewing.com",
-    "logo": "http://www.leavenbrewing.com/img/LeavenLogoTrans.png",
+    "url": "https://www.leavenbrewing.com",
+    "logo": "https://www.leavenbrewing.com/img/LeavenLogoTrans.png",
     "address": "11238 Boyette Rd, Riverview, FL 33569",
-    "sameAs": ["http://www.facebook.com/leavenbrewing", "http://www.instagram.com/leavenbrewing","http://www.twitter.com/leavenbrewing"],
+    "sameAs": ["https://www.facebook.com/leavenbrewing", "https://www.instagram.com/leavenbrewing","https://www.twitter.com/leavenbrewing"],
     "telephone": "+1-813-677-7023"
   }
   </script>
   
   <!-- Facebook Opengraph -->
   <meta property="og:title" content="Leaven Brewing - Transforming Grain for the Better">
-  <meta property="og:image" content="http://www.leavenbrewing.com/img/LeavenLogoTrans.png">
-  <meta property="og:url" content="http://www.leavenbrewing.com/">
+  <meta property="og:image" content="https://www.leavenbrewing.com/img/LeavenLogoTrans.png">
+  <meta property="og:url" content="https://www.leavenbrewing.com/">
   <meta property="og:site_name" content="Leaven Brewing - Transforming Grain for the Better">
   <meta property="og:description" content="Leaven Brewing - Riverview Florida's first brewery">
 
@@ -80,9 +80,9 @@
   <meta name="twitter:site" content="@LeavenBrewing">
   <meta name="twitter:title" content="Leaven Brewing - Transforming Grain for the Better">
   <meta name="twitter:description" content="Riverview Florida's first brewery">
-  <meta name="twitter:image" content="http://www.leavenbrewing.com/img/LeavenLogoTrans.png">
+  <meta name="twitter:image" content="https://www.leavenbrewing.com/img/LeavenLogoTrans.png">
 
-  <link href="http://www.leavenbrewing.com/favicon.ico" rel="shortcut icon">
+  <link href="https://www.leavenbrewing.com/favicon.ico" rel="shortcut icon">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">

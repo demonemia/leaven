@@ -4,7 +4,7 @@
 ##############-->
 <html lang="en">
   <head>
-    <link href="http://www.leavenbrewing.com/favicon.ico" rel="shortcut icon">
+    <link href="https://www.leavenbrewing.com/favicon.ico" rel="shortcut icon">
     <title>Update the Beer List</title>
     <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
