@@ -97,8 +97,8 @@
               <?php
                 echo '<span class="numVotes">Current Votes: <span class="voteCount">'.$adrianVotes.'</span></span>';
               ?>
-              <a href="?fire=adrian"><img alt="Fire Adrian!" class="fireHim" name="adrian" src="https://www.leavenbrewing.com/img/adrian.jpg"></a>
-              <a href="?fire=frank"><img alt="Fire Frank!" class="fireHim" name="frank" src="https://www.leavenbrewing.com/img/frank.jpg"></a>
+              <a href="https://www.leavenbrewing.com/404.php?fire=adrian"><img alt="Fire Adrian!" class="fireHim" name="adrian" src="https://www.leavenbrewing.com/img/adrian.jpg"></a>
+              <a href="https://www.leavenbrewing.com/404.php?fire=frank"><img alt="Fire Frank!" class="fireHim" name="frank" src="https://www.leavenbrewing.com/img/frank.jpg"></a>
               <?php
                 echo '<span class="numVotes">Current Votes: <span class="voteCount">'.$frankVotes.'</span></span>';
               ?>
