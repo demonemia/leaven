@@ -353,6 +353,8 @@
         $(strID).animate({right:'1000px',height:'+=400px',width:'+=400px'},'slow');
         $(strID).fadeOut();
       }
+      // Kill the link treatment
+      $("#Jillian").prop("id",null);
     });
   </script>
 
